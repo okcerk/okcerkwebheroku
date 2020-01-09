@@ -17,9 +17,9 @@ import BaloonPerson from '../images/sketches/baloon_person.png';
 import Bug2 from '../images/sketches/bug2.png';
 import Squirrel from '../images/sketches/squirrel.png';
 import Bunny from '../images/sketches/bunny.png';
-import Dude4 from '../images/sketches/dude4.png';
-import Animal from '../images/sketches/animal.png';
-import Bug from '../images/sketches/bug.png';
+import Mickey from '../images/sketches/mickey.png';
+import King from '../images/sketches/king.png';
+import Cereal from '../images/sketches/cereal.png';
 
 import DudeAndFlyHD from '../images/sketches/dude_and_fly_hd.png';
 import ThreeEyedMonsterHD from '../images/sketches/three_eyed_monster_hd.png';
@@ -40,23 +40,26 @@ import BaloonPersonHD from '../images/sketches/baloon_person_hd.png';
 import Bug2HD from '../images/sketches/bug2_hd.png';
 import SquirrelHD from '../images/sketches/squirrel_hd.png';
 import BunnyHD from '../images/sketches/bunny_hd.png';
-import Dude4HD from '../images/sketches/dude4_hd.png';
-import AnimalHD from '../images/sketches/animal_hd.png';
-import BugHD from '../images/sketches/bug_hd.png';
+import MickeyHD from '../images/sketches/mickey_hd.png';
+import KingHD from '../images/sketches/king_hd.png';
+import CerealHD from '../images/sketches/cereal_hd.png';
 
 export const homepageConfig = {
     key: 'homepage',
     items: [
+        { text: "Me having cereal with yogurt", image: Cereal, imageHD: CerealHD, type: 'SketchFrame' },
+        { text: "King of Nothing", image: King, imageHD: KingHD, type: 'SketchFrame' },
+        { text: "Mr.Mouse - Angry Edition", image: Mickey, imageHD: MickeyHD, type: 'SketchFrame' },
         { text: "Anarchism", image: DudeAndFly, imageHD: DudeAndFlyHD, type: 'SketchFrame' },
         { text: "Three Eyed Monster", image: ThreeEyedMonster, imageHD: ThreeEyedMonsterHD, type: 'SketchFrame' },
         { text: "Big Brother is coming for ya", image: BigRobot, imageHD: BigRobotHD, type: 'SketchFrame' },
         { text: "Dark Sponge Times", image: Sponge, imageHD: SpongeHD, type: 'SketchFrame' },
         { text: "Riot", image: Fighter, imageHD: FighterHD, type: 'SketchFrame' },
         { text: "Monster Project", image: MonsterProject14, imageHD: MonsterProject14HD, type: 'SketchFrame' },
-        { text: "Do you believe in Rock n' Roll?", image: TaxSeason, imageHD: TaxSeasonHD, type: 'SketchFrame' },
-        { text: "Lights on!", image: Bug4, imageHD: Bug4HD, type: 'SketchFrame' },
-        { text: "Brandenburg Gate under attack", image: BerlinMonster, imageHD: BerlinMonsterHD, type: 'SketchFrame' },
         { type: 'SocialMediaFrame' },
+        { text: "Do you believe in Rock n' Roll?", image: TaxSeason, imageHD: TaxSeasonHD, type: 'SketchFrame' },                
+        { text: "Lights on!", image: Bug4, imageHD: Bug4HD, type: 'SketchFrame' },
+        { text: "Brandenburg Gate under attack", image: BerlinMonster, imageHD: BerlinMonsterHD, type: 'SketchFrame' },        
         { text: "Weekend of the undead", image: Undead, imageHD: UndeadHD, type: 'SketchFrame' },
         { text: "Angular", image: Angular, imageHD: AngularHD, type: 'SketchFrame' },
         { text: "Whale", image: WhaleCollage, imageHD: WhaleCollageHD, type: 'SketchFrame' },
@@ -67,9 +70,6 @@ export const homepageConfig = {
         { text: "Underwater", image: Bug2, imageHD: Bug2HD, type: 'SketchFrame' },
         { text: "Pasta based diet", image: Squirrel, imageHD: SquirrelHD, type: 'SketchFrame' },
         { text: "Peanut butter", image: Bunny, imageHD: BunnyHD, type: 'SketchFrame' },
-        { text: "The end of the summer", image: Dude4, imageHD: Dude4HD, type: 'SketchFrame' },
-        { text: "Sleep is for the weak", image: Animal, imageHD: AnimalHD, type: 'SketchFrame' },
-        { text: "Portrait of my face this morning", image: Bug, imageHD: BugHD, type: 'SketchFrame' },
         { type: 'SocialMediaFrame' }
     ]
 };

@@ -1,3 +1,6 @@
+import Cereal from '../images/sketches/cereal.png';
+import King from '../images/sketches/king.png';
+import Mickey from '../images/sketches/mickey.png';
 import DudeAndFly from '../images/sketches/dude_and_fly.png';
 import ThreeEyedMonster from '../images/sketches/three_eyed_monster.png';
 import BigRobot from '../images/sketches/big_robot.png';
@@ -46,6 +49,9 @@ import Communism from '../images/comics/communism.png';
 import FlamethrowerGuy from '../images/sketches/flamethrower-guy.png';
 import Cloro1 from '../images/sketches/cloro1.png';
 
+import CerealHD from '../images/sketches/cereal_hd.png';
+import KingHD from '../images/sketches/king_hd.png';
+import MickeyHD from '../images/sketches/mickey_hd.png';
 import DudeAndFlyHD from '../images/sketches/dude_and_fly_hd.png';
 import ThreeEyedMonsterHD from '../images/sketches/three_eyed_monster_hd.png';
 import BigRobotHD from '../images/sketches/big_robot_hd.png';
@@ -90,6 +96,9 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const sketchesConfig = {
     key: 'sketches',
     items: [
+        { text: "Me having cereal with yogurt", image: Cereal, imageHD: CerealHD, type: 'SketchFrame' },
+        { text: "King of Nothing", image: King, imageHD: KingHD, type: 'SketchFrame' },
+        { text: "Mr.Mouse - Angry Edition", image: Mickey, imageHD: MickeyHD, type: 'SketchFrame' },
         { text: "Anarchism", image: DudeAndFly, imageHD: DudeAndFlyHD, type: 'SketchFrame' },
         { text: "Three Eyed Monster", image: ThreeEyedMonster, imageHD: ThreeEyedMonsterHD, type: 'SketchFrame' },
         { text: "Big Brother is coming for ya", image: BigRobot, imageHD: BigRobotHD, type: 'SketchFrame' },
