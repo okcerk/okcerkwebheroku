@@ -16,6 +16,7 @@ const style = {
         marginLeft: 20,
         marginRight: 20,
         maxWidth: 600,
+        minHeight: 400,
     }
 };
 
