@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 const style = {
     sketchFrame: {
+        alignItems: 'center',
+        display: 'flex',
+        justifyContent: 'center',
+        minHeight: 400,
         minWidth: 600,
     },
     sketchText: {
@@ -15,8 +19,7 @@ const style = {
         //cursor: 'zoom-in',
         marginLeft: 20,
         marginRight: 20,
-        maxWidth: 600,
-        minHeight: 400,
+        maxWidth: 600,        
     }
 };
 
@@ -29,8 +32,10 @@ class SketchFrame extends Component {
     render() {
         return (
             <div style={style.sketchFrame}>
-                <p style={style.sketchText}>{this.props.text}</p>
-                <img style={style.sketchImage} src={this.props.image} onClick={this.viewImage.bind(this)}/>
+                <div>
+                    <p style={style.sketchText}>{this.props.text}</p>
+                    <img style={style.sketchImage} src={this.props.image} onClick={this.viewImage.bind(this)}/>
+                </div>
             </div>
         );
     }
