@@ -1,3 +1,4 @@
+import AlienFace from '../images/sketches/alien_face.png';
 import Cereal from '../images/sketches/cereal.png';
 import King from '../images/sketches/king.png';
 import Mickey from '../images/sketches/mickey.png';
@@ -96,6 +97,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const sketchesConfig = {
     key: 'sketches',
     items: [
+        { text: "Dark times", image: AlienFace, imageHD: AlienFace, type: 'SketchFrame' },
         { text: "Me having cereal with yogurt", image: Cereal, imageHD: CerealHD, type: 'SketchFrame' },
         { text: "King of Nothing", image: King, imageHD: KingHD, type: 'SketchFrame' },
         { text: "Mr.Mouse - Angry Edition", image: Mickey, imageHD: MickeyHD, type: 'SketchFrame' },
