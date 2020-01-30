@@ -1,3 +1,4 @@
+import Duck from '../images/sketches/duck.png';
 import LittleDevil from '../images/sketches/little_devil.png';
 import AlienFace from '../images/sketches/alien_face.png';
 import Cereal from '../images/sketches/cereal.png';
@@ -98,6 +99,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const homepageConfig = {
     key: 'homepage',
     items: [
+        { text: "Duckanism", image: Duck, imageHD: Duck, type: 'SketchFrame' },
         { text: "It's pizza time", image: LittleDevil, imageHD: LittleDevil, type: 'SketchFrame' },
         { text: "Dark times", image: AlienFace, imageHD: AlienFace, type: 'SketchFrame' },
         { text: "Me having cereal with yogurt", image: Cereal, imageHD: CerealHD, type: 'SketchFrame' },
@@ -111,8 +113,8 @@ export const homepageConfig = {
         { text: "Monster Project", image: MonsterProject14, imageHD: MonsterProject14HD, type: 'SketchFrame' },
         { text: "Do you believe in Rock n' Roll?", image: TaxSeason, imageHD: TaxSeasonHD, type: 'SketchFrame' },
         { text: "Lights on!", image: Bug4, imageHD: Bug4HD, type: 'SketchFrame' },
-        { url: 'https://www.youtube.com/embed/h63QPrgaMHM', description: 'Squad 37: Episode 9. Cacho invites a bunch of superheroes to the spaceship for a meeting. Soda will try to kill everyone. SPANISH', type: 'YoutubeFrame' },
         { type: 'SocialMediaFrame' },
+        { url: 'https://www.youtube.com/embed/h63QPrgaMHM', description: 'Squad 37: Episode 9. Cacho invites a bunch of superheroes to the spaceship for a meeting. Soda will try to kill everyone. SPANISH', type: 'YoutubeFrame' },        
         { text: "Brandenburg Gate under attack", image: BerlinMonster, imageHD: BerlinMonsterHD, type: 'SketchFrame' },
         { text: "Weekend of the undead", image: Undead, imageHD: UndeadHD, type: 'SketchFrame' },
         { text: "Angular", image: Angular, imageHD: AngularHD, type: 'SketchFrame' },
