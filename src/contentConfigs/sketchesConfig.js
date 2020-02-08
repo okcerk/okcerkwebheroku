@@ -1,3 +1,4 @@
+import Creep from '../images/sketches/creep.png';
 import Duck from '../images/sketches/duck.png';
 import LittleDevil from '../images/sketches/little_devil.png';
 import AlienFace from '../images/sketches/alien_face.png';
@@ -99,6 +100,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const sketchesConfig = {
     key: 'sketches',
     items: [
+        { text: "Sweet dreams", image: Creep, imageHD: Creep, type: 'SketchFrame' },
         { text: "Duckanism", image: Duck, imageHD: Duck, type: 'SketchFrame' },
         { text: "It's pizza time", image: LittleDevil, imageHD: LittleDevil, type: 'SketchFrame' },
         { text: "Dark times", image: AlienFace, imageHD: AlienFace, type: 'SketchFrame' },
