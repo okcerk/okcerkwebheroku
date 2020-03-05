@@ -1,4 +1,5 @@
 import Coronavirra from '../images/sketches/coronavirra.png';
+import Flinstones from '../images/comics/flinstones.png';
 import Creep from '../images/sketches/creep.png';
 import Duck from '../images/sketches/duck.png';
 import LittleDevil from '../images/sketches/little_devil.png';
@@ -102,6 +103,7 @@ export const homepageConfig = {
     key: 'homepage',
     items: [
         { text: "Coronavirra", image: Coronavirra, imageHD: Coronavirra, type: 'SketchFrame' },
+        { text: "Dinosaurs", image: Flinstones, imageHD: Flinstones, type: 'SketchFrame' },
         { text: "Sweet dreams", image: Creep, imageHD: Creep, type: 'SketchFrame' },
         { text: "Duckanism", image: Duck, imageHD: Duck, type: 'SketchFrame' },
         { text: "It's pizza time", image: LittleDevil, imageHD: LittleDevil, type: 'SketchFrame' },
