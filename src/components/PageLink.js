@@ -5,12 +5,15 @@ const style = {
     pageLink: {
         cursor: 'pointer',
         margin: 20,
+    },
+    linkImage: {
+        maxWidth: 600,
     }
 };
 
 class PageLink extends Component {
     render() {
-        const image = (<img src={this.props.image} alt={this.props.title}/>);
+        const image = (<img style={style.linkImage} src={this.props.image} alt={this.props.title}/>);
         return (            
             <div style={style.pageLink}>
                 {this.props.link && (<Link to={this.props.link}>{image}</Link>)}

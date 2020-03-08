@@ -21,7 +21,7 @@ class LinkFrame extends Component {
     render() {
         return (
             <div style={style.linkFrame}>
-                <div>
+                <div style={style.linkImage}>
                     <PageLink
                         key={this.props.title}
                         title={this.props.title}
