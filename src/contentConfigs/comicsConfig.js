@@ -1,3 +1,4 @@
+import Wfh from '../images/comics/wfh.png';
 import Flinstones from '../images/comics/flinstones.png';
 import Spoilers from '../images/comics/spoilers.png';
 import Moving from '../images/comics/moving.png';
@@ -10,6 +11,7 @@ import Communism from '../images/comics/communism.png';
 export const comicsConfig = {
     key: 'comics',
     items: [
+        { text: "Working from hell", image: Wfh, imageHD: Wfh, type: 'SketchFrame' },
         { text: "Dinosaurs", image: Flinstones, imageHD: Flinstones, type: 'SketchFrame' },
         { text: "Deep thoughts on politics", image: Spoilers, imageHD: '', type: 'SketchFrame' },
         { text: "Got a new spot, friends", image: Moving, imageHD: '', type: 'SketchFrame' },

@@ -1,3 +1,4 @@
+import Wfh from '../images/comics/wfh.png';
 import Coronavirra from '../images/sketches/coronavirra.png';
 import Flinstones from '../images/comics/flinstones.png';
 import Creep from '../images/sketches/creep.png';
@@ -102,6 +103,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const homepageConfig = {
     key: 'homepage',
     items: [
+        { text: "Working from hell", image: Wfh, imageHD: Wfh, type: 'SketchFrame' },
         { text: "Coronavirra", image: Coronavirra, imageHD: Coronavirra, type: 'SketchFrame' },
         { text: "Dinosaurs", image: Flinstones, imageHD: Flinstones, type: 'SketchFrame' },
         { text: "Sweet dreams", image: Creep, imageHD: Creep, type: 'SketchFrame' },
@@ -118,8 +120,8 @@ export const homepageConfig = {
         { text: "Riot", image: Fighter, imageHD: FighterHD, type: 'SketchFrame' },
         { text: "Monster Project", image: MonsterProject14, imageHD: MonsterProject14HD, type: 'SketchFrame' },
         { text: "Do you believe in Rock n' Roll?", image: TaxSeason, imageHD: TaxSeasonHD, type: 'SketchFrame' },
-        { text: "Lights on!", image: Bug4, imageHD: Bug4HD, type: 'SketchFrame' },
         { type: 'SocialMediaFrame' },
+        { text: "Lights on!", image: Bug4, imageHD: Bug4HD, type: 'SketchFrame' },        
         { url: 'https://www.youtube.com/embed/h63QPrgaMHM', description: 'Squad 37: Episode 9. Cacho invites a bunch of superheroes to the spaceship for a meeting. Soda will try to kill everyone. SPANISH', type: 'YoutubeFrame' },        
         { text: "Brandenburg Gate under attack", image: BerlinMonster, imageHD: BerlinMonsterHD, type: 'SketchFrame' },
         { text: "Weekend of the undead", image: Undead, imageHD: UndeadHD, type: 'SketchFrame' },
