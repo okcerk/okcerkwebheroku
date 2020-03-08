@@ -3,6 +3,7 @@ import SketchFrame from '../components/SketchFrame';
 import YoutubeFrame from '../components/YoutubeFrame';
 import TextFrame from '../components/TextFrame';
 import SocialMediaFrame from '../components/SocialMediaFrame';
+import LinkFrame from '../components/LinkFrame';
 
 export const getContentFromConfig = (config) => {
     const key = config.key;
@@ -35,6 +36,12 @@ export const getContentFromConfig = (config) => {
                 list.push({
                     key: key + i,
                     content: <SocialMediaFrame/>
+                });
+                break;
+            case 'LinkFrame':
+                list.push({
+                    key: key + i,
+                    content: <LinkFrame {...item} />
                 });
                 break;
             default:

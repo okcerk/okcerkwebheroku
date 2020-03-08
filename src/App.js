@@ -5,6 +5,8 @@ import ComicsPage from './components/pages/ComicsPage.js';
 import DoodlesPage from './components/pages/DoodlesPage.js';
 import Escuadron37Page from './components/pages/Escuadron37Page.js';
 import InktoberPage from './components/pages/InktoberPage.js';
+import Inktober2018Page from './components/pages/Inktober2018Page.js';
+import Inktober2019Page from './components/pages/Inktober2019Page.js';
 import AboutPage from './components/pages/AboutPage.js';
 import backgroundImage from './images/background.png';
 
@@ -25,6 +27,8 @@ class App extends Component {
           <Route name="doodles" exact path="/doodles" component={DoodlesPage} />
           <Route name="escuadron37" exact path="/escuadron37" component={Escuadron37Page} />
           <Route name="inktober" exact path="/inktober" component={InktoberPage} />
+          <Route name="inktober2018" exact path="/inktober2018" component={Inktober2018Page} />
+          <Route name="inktober2019" exact path="/inktober2019" component={Inktober2019Page} />
           <Route name="about" exact path="/about" component={AboutPage} />
         </div>
       </Router>
