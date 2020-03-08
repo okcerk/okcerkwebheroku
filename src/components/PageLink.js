@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const style = {
     pageLink: {
         cursor: 'pointer',
+        margin: 20,
     }
 };
 

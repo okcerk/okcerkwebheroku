@@ -1,5 +1,4 @@
 import Coronavirra from '../images/sketches/coronavirra.png';
-import Flinstones from '../images/comics/flinstones.png';
 import Creep from '../images/sketches/creep.png';
 import Duck from '../images/sketches/duck.png';
 import LittleDevil from '../images/sketches/little_devil.png';
@@ -36,22 +35,15 @@ import Dude from '../images/sketches/dude.png';
 import Devil from '../images/sketches/devil.png';
 import Sun from '../images/sketches/sun.png';
 import Scream from '../images/sketches/scream.png';
-import Spoilers from '../images/comics/spoilers.png';
 import Insect from '../images/sketches/insect.png';
-import Moving from '../images/comics/moving.png';
 import Grill from '../images/sketches/grill.png';
-import Coffee from '../images/comics/coffee.png';
 import Alien from '../images/sketches/alien.png';
 import Fish from '../images/sketches/fish.png';
-import Traffic from '../images/comics/traffic.png';
 import Psychic from '../images/sketches/psychic.png';
 import Ghosts from '../images/sketches/ghosts.png';
-import CrapPeopleSay from '../images/comics/crap-people-say.png';
 import FlyingDevil from '../images/sketches/flying-devil.png';
-import FriedChicken from '../images/comics/fried-chicken.png';
 import ZombieFace from '../images/sketches/zombie-face.png';
 import DesktopHero from '../images/sketches/desktop-hero.png';
-import Communism from '../images/comics/communism.png';
 import FlamethrowerGuy from '../images/sketches/flamethrower-guy.png';
 import Cloro1 from '../images/sketches/cloro1.png';
 
@@ -99,11 +91,10 @@ import DesktopHeroHD from '../images/sketches/desktop-hero_hd.png';
 import FlamethrowerGuyHD from '../images/sketches/flamethrower-guy_hd.png';
 import Cloro1HD from '../images/sketches/cloro1_hd.png';
 
-export const sketchesConfig = {
-    key: 'sketches',
+export const doodlesConfig = {
+    key: 'doodles',
     items: [
         { text: "Coronavirra", image: Coronavirra, imageHD: Coronavirra, type: 'SketchFrame' },
-        { text: "Dinosaurs", image: Flinstones, imageHD: Flinstones, type: 'SketchFrame' },
         { text: "Sweet dreams", image: Creep, imageHD: Creep, type: 'SketchFrame' },
         { text: "Duckanism", image: Duck, imageHD: Duck, type: 'SketchFrame' },
         { text: "It's pizza time", image: LittleDevil, imageHD: LittleDevil, type: 'SketchFrame' },
@@ -113,53 +104,46 @@ export const sketchesConfig = {
         { text: "Mr.Mouse - Angry Edition", image: Mickey, imageHD: MickeyHD, type: 'SketchFrame' },
         { text: "Anarchism", image: DudeAndFly, imageHD: DudeAndFlyHD, type: 'SketchFrame' },
         { text: "Three Eyed Monster", image: ThreeEyedMonster, imageHD: ThreeEyedMonsterHD, type: 'SketchFrame' },
+        { type: 'SocialMediaFrame' },
         { text: "Big Brother is coming for ya", image: BigRobot, imageHD: BigRobotHD, type: 'SketchFrame' },
         { text: "Dark Sponge Times", image: Sponge, imageHD: SpongeHD, type: 'SketchFrame' },
         { text: "Riot", image: Fighter, imageHD: FighterHD, type: 'SketchFrame' },
         { text: "Monster Project", image: MonsterProject14, imageHD: MonsterProject14HD, type: 'SketchFrame' },
         { text: "Do you believe in Rock n' Roll?", image: TaxSeason, imageHD: TaxSeasonHD, type: 'SketchFrame' },
         { text: "Lights on!", image: Bug4, imageHD: Bug4HD, type: 'SketchFrame' },
-        { type: 'SocialMediaFrame' },
         { text: "Brandenburg Gate under attack", image: BerlinMonster, imageHD: BerlinMonsterHD, type: 'SketchFrame' },
         { text: "Weekend of the undead", image: Undead, imageHD: UndeadHD, type: 'SketchFrame' },
         { text: "Angular", image: Angular, imageHD: AngularHD, type: 'SketchFrame' },
         { text: "Whale", image: WhaleCollage, imageHD: WhaleCollageHD, type: 'SketchFrame' },
+        { type: 'SocialMediaFrame' },
         { text: "Scorched", image: Scorched, imageHD: ScorchedHD, type: 'SketchFrame' },
         { text: "Poisonous", image: Poisonous, imageHD: PoisonousHD, type: 'SketchFrame' },
         { text: "Chicken", image: Chicken, imageHD: ChickenHD, type: 'SketchFrame' },
         { text: "The Seventh Dimension", image: BaloonPerson, imageHD: BaloonPersonHD, type: 'SketchFrame' },
         { text: "Underwater", image: Bug2, imageHD: Bug2HD, type: 'SketchFrame' },
-        { type: 'SocialMediaFrame' },
         { text: "Pasta based diet", image: Squirrel, imageHD: SquirrelHD, type: 'SketchFrame' },
         { text: "Peanut butter", image: Bunny, imageHD: BunnyHD, type: 'SketchFrame' },
         { text: "The end of the summer", image: Dude4, imageHD: Dude4HD, type: 'SketchFrame' },
         { text: "Sleep is for the weak", image: Animal, imageHD: AnimalHD, type: 'SketchFrame' },
         { text: "Portrait of my face this morning", image: Bug, imageHD: BugHD, type: 'SketchFrame' },
+        { type: 'SocialMediaFrame' },
         { text: "A thousand hours of sleep", image: Dude2, imageHD: Dude2HD, type: 'SketchFrame' },
         { text: "What some people in my alley look like", image: Nightmare, imageHD: NightmareHD, type: 'SketchFrame' },
         { text: "Sweet dreams", image: Darkness, imageHD: DarknessHD, type: 'SketchFrame' },
         { text: "You can always get what you want", image: Dude, imageHD: DudeHD, type: 'SketchFrame' },
         { text: "It's the end of the weekend once again", image: Devil, imageHD: DevilHD, type: 'SketchFrame' },
-        { type: 'SocialMediaFrame' },
         { text: "Seattle today", image: Sun, imageHD: SunHD, type: 'SketchFrame' },
         { text: "Going nowhere slow", image: Scream, imageHD: ScreamHD, type: 'SketchFrame' },
-        { text: "Deep thoughts on politics", image: Spoilers, imageHD: '', type: 'SketchFrame' },
         { text: "Illuminati", image: Insect, imageHD: InsectHD, type: 'SketchFrame' },
-        { text: "Got a new spot, friends", image: Moving, imageHD: '', type: 'SketchFrame' },
         { text: "About summer", image: Grill, imageHD: GrillHD, type: 'SketchFrame' },
-        { text: "Coffee!", image: Coffee, imageHD: '', type: 'SketchFrame' },
         { text: "Greetings from above", image: Alien, imageHD: AlienHD, type: 'SketchFrame' },
-        { text: "Rainbows", image: Fish, imageHD: FishHD, type: 'SketchFrame' },
-        { text: "Stuck in traffic", image: Traffic, imageHD: '', type: 'SketchFrame' },
         { type: 'SocialMediaFrame' },
+        { text: "Rainbows", image: Fish, imageHD: FishHD, type: 'SketchFrame' },
         { text: "Carnival of an unwelcome Monday", image: Psychic, imageHD: PsychicHD, type: 'SketchFrame' },
         { text: "Me running from my inner ghosts", image: Ghosts, imageHD: GhostsHD, type: 'SketchFrame' },
-        { text: "I could've kept going", image: CrapPeopleSay, imageHD: '', type: 'SketchFrame' },
         { text: "When I run out of coffee", image: FlyingDevil, imageHD: FlyingDevilHD, type: 'SketchFrame' },
-        { text: 'Fried chicken', image: FriedChicken, imageHD: '', type: 'SketchFrame' },
         { text: "Alternate representation of today's weather", image: ZombieFace, imageHD: ZombieFaceHD, type: 'SketchFrame' },
         { text: 'How you end up after eating broccoli', image: DesktopHero, imageHD: DesktopHeroHD, type: 'SketchFrame' },
-        { text: 'Orange juice', image: Communism, imageHD: '', type: 'SketchFrame' },
         { text: 'Bubblegum', image: FlamethrowerGuy, imageHD: FlamethrowerGuyHD, type: 'SketchFrame' },
         { text: 'Cloro', image: Cloro1, imageHD: Cloro1HD, type: 'SketchFrame' },
         { type: 'SocialMediaFrame' }
