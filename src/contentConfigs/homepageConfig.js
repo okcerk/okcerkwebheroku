@@ -1,3 +1,4 @@
+import Feuer from '../images/sketches/fire.png';
 import Wfh from '../images/comics/wfh.png';
 import Coronavirra from '../images/sketches/coronavirra.png';
 import Flinstones from '../images/comics/flinstones.png';
@@ -103,6 +104,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const homepageConfig = {
     key: 'homepage',
     items: [
+        { text: "Feuer", image: Feuer, imageHD: Feuer, type: 'SketchFrame' },
         { text: "Working from hell", image: Wfh, imageHD: Wfh, type: 'SketchFrame' },
         { text: "Coronavirra", image: Coronavirra, imageHD: Coronavirra, type: 'SketchFrame' },
         { text: "Dinosaurs", image: Flinstones, imageHD: Flinstones, type: 'SketchFrame' },

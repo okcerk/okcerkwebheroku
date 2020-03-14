@@ -1,3 +1,4 @@
+import Feuer from '../images/sketches/fire.png';
 import Coronavirra from '../images/sketches/coronavirra.png';
 import Creep from '../images/sketches/creep.png';
 import Duck from '../images/sketches/duck.png';
@@ -94,6 +95,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const doodlesConfig = {
     key: 'doodles',
     items: [
+        { text: "Feuer", image: Feuer, imageHD: Feuer, type: 'SketchFrame' },
         { text: "Coronavirra", image: Coronavirra, imageHD: Coronavirra, type: 'SketchFrame' },
         { text: "Sweet dreams", image: Creep, imageHD: Creep, type: 'SketchFrame' },
         { text: "Duckanism", image: Duck, imageHD: Duck, type: 'SketchFrame' },
