@@ -1,3 +1,4 @@
+import Coronavirus from '../images/comics/coronavirus-comic.png';
 import Wfh from '../images/comics/wfh.png';
 import Flinstones from '../images/comics/flinstones.png';
 import Spoilers from '../images/comics/spoilers.png';
@@ -11,6 +12,7 @@ import Communism from '../images/comics/communism.png';
 export const comicsConfig = {
     key: 'comics',
     items: [
+        { text: "Stay the F home!!", image: Coronavirus, imageHD: Coronavirus, type: 'SketchFrame' },
         { text: "Working from hell", image: Wfh, imageHD: Wfh, type: 'SketchFrame' },
         { text: "Dinosaurs", image: Flinstones, imageHD: Flinstones, type: 'SketchFrame' },
         { text: "Deep thoughts on politics", image: Spoilers, imageHD: '', type: 'SketchFrame' },

@@ -1,3 +1,4 @@
+import Coronavirus from '../images/comics/coronavirus-comic.png';
 import Feuer from '../images/sketches/fire.png';
 import Wfh from '../images/comics/wfh.png';
 import Coronavirra from '../images/sketches/coronavirra.png';
@@ -104,6 +105,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const homepageConfig = {
     key: 'homepage',
     items: [
+        { text: "Stay the F home!!", image: Coronavirus, imageHD: Coronavirus, type: 'SketchFrame' },
         { text: "Feuer", image: Feuer, imageHD: Feuer, type: 'SketchFrame' },
         { text: "Working from hell", image: Wfh, imageHD: Wfh, type: 'SketchFrame' },
         { text: "Coronavirra", image: Coronavirra, imageHD: Coronavirra, type: 'SketchFrame' },
