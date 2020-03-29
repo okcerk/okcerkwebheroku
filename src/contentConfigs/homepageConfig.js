@@ -1,3 +1,4 @@
+import CoffeeOverdose from '../images/sketches/coffee-overdose.png';
 import Coronavirus from '../images/comics/coronavirus-comic.png';
 import Feuer from '../images/sketches/fire.png';
 import Wfh from '../images/comics/wfh.png';
@@ -105,6 +106,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const homepageConfig = {
     key: 'homepage',
     items: [
+        { text: "Me during quarantine", image: CoffeeOverdose, imageHD: CoffeeOverdose, type: 'SketchFrame' },
         { text: "Stay the F home!!", image: Coronavirus, imageHD: Coronavirus, type: 'SketchFrame' },
         { text: "Feuer", image: Feuer, imageHD: Feuer, type: 'SketchFrame' },
         { text: "Working from hell", image: Wfh, imageHD: Wfh, type: 'SketchFrame' },

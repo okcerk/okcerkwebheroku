@@ -1,3 +1,4 @@
+import CoffeeOverdose from '../images/sketches/coffee-overdose.png';
 import Feuer from '../images/sketches/fire.png';
 import Coronavirra from '../images/sketches/coronavirra.png';
 import Creep from '../images/sketches/creep.png';
@@ -95,6 +96,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const doodlesConfig = {
     key: 'doodles',
     items: [
+        { text: "Me during quarantine", image: CoffeeOverdose, imageHD: CoffeeOverdose, type: 'SketchFrame' },
         { text: "Feuer", image: Feuer, imageHD: Feuer, type: 'SketchFrame' },
         { text: "Coronavirra", image: Coronavirra, imageHD: Coronavirra, type: 'SketchFrame' },
         { text: "Sweet dreams", image: Creep, imageHD: Creep, type: 'SketchFrame' },
