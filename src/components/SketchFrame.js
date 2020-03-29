@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ModalImage from 'react-modal-image';
 
 const style = {
     sketchFrame: {
@@ -24,17 +25,20 @@ const style = {
 };
 
 class SketchFrame extends Component {
-    viewImage() {
-        //const viewer = ImageViewer(); //options is optional parameter
-        //viewer.show(this.props.imageHD != '' ? this.props.imageHD : this.props.image); //second paramter is optional
-    };
-
     render() {
+        const { text, image } = this.props;
+        const hdImage = this.props.imageHD !== '' ? this.props.imageHD : image;
         return (
             <div style={style.sketchFrame}>
                 <div>
-                    <p style={style.sketchText}>{this.props.text}</p>
-                    <img style={style.sketchImage} src={this.props.image} onClick={this.viewImage.bind(this)}/>
+                    <p style={style.sketchText}>{text}</p>
+                    <div style={style.sketchImage}>
+                        <ModalImage                        
+                            small={image}
+                            large={hdImage}
+                            alt={text}
+                            hideZoom={true} />
+                    </div>
                 </div>
             </div>
         );

@@ -49,6 +49,13 @@ import DesktopHero from '../images/sketches/desktop-hero.png';
 import FlamethrowerGuy from '../images/sketches/flamethrower-guy.png';
 import Cloro1 from '../images/sketches/cloro1.png';
 
+import CoffeeOverdoseHD from '../images/sketches/coffee-overdose_hd.png';
+import FeuerHD from '../images/sketches/fire_hd.png';
+import CoronavirraHD from '../images/sketches/coronavirra_hd.png';
+import CreepHD from '../images/sketches/creep_hd.png';
+import DuckHD from '../images/sketches/duck_hd.png';
+import LittleDevilHD from '../images/sketches/little_devil_hd.png';
+import AlienFaceHD from '../images/sketches/alien_face_hd.png';
 import CerealHD from '../images/sketches/cereal_hd.png';
 import KingHD from '../images/sketches/king_hd.png';
 import MickeyHD from '../images/sketches/mickey_hd.png';
@@ -96,13 +103,13 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const doodlesConfig = {
     key: 'doodles',
     items: [
-        { text: "Me during quarantine", image: CoffeeOverdose, imageHD: CoffeeOverdose, type: 'SketchFrame' },
-        { text: "Feuer", image: Feuer, imageHD: Feuer, type: 'SketchFrame' },
-        { text: "Coronavirra", image: Coronavirra, imageHD: Coronavirra, type: 'SketchFrame' },
-        { text: "Sweet dreams", image: Creep, imageHD: Creep, type: 'SketchFrame' },
-        { text: "Duckanism", image: Duck, imageHD: Duck, type: 'SketchFrame' },
-        { text: "It's pizza time", image: LittleDevil, imageHD: LittleDevil, type: 'SketchFrame' },
-        { text: "Dark times", image: AlienFace, imageHD: AlienFace, type: 'SketchFrame' },
+        { text: "Me during quarantine", image: CoffeeOverdose, imageHD: CoffeeOverdoseHD, type: 'SketchFrame' },
+        { text: "Feuer", image: Feuer, imageHD: FeuerHD, type: 'SketchFrame' },
+        { text: "Coronavirra", image: Coronavirra, imageHD: CoronavirraHD, type: 'SketchFrame' },
+        { text: "Sweet dreams", image: Creep, imageHD: CreepHD, type: 'SketchFrame' },
+        { text: "Duckanism", image: Duck, imageHD: DuckHD, type: 'SketchFrame' },
+        { text: "It's pizza time", image: LittleDevil, imageHD: LittleDevilHD, type: 'SketchFrame' },
+        { text: "Dark times", image: AlienFace, imageHD: AlienFaceHD, type: 'SketchFrame' },
         { text: "Me having cereal with yogurt", image: Cereal, imageHD: CerealHD, type: 'SketchFrame' },
         { text: "King of Nothing", image: King, imageHD: KingHD, type: 'SketchFrame' },
         { text: "Mr.Mouse - Angry Edition", image: Mickey, imageHD: MickeyHD, type: 'SketchFrame' },

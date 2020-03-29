@@ -59,6 +59,21 @@ import Communism from '../images/comics/communism.png';
 import FlamethrowerGuy from '../images/sketches/flamethrower-guy.png';
 import Cloro1 from '../images/sketches/cloro1.png';
 
+import CoffeeOverdoseHD from '../images/sketches/coffee-overdose_hd.png';
+import CoronavirusHD from '../images/comics/coronavirus-comic_hd.png';
+import WfhHD from '../images/comics/wfh_hd.png';
+import FlinstonesHD from '../images/comics/flinstones_hd.png';
+import CoffeeHD from '../images/comics/coffee_hd.png';
+import TrafficHD from '../images/comics/traffic_hd.png';
+import CrapPeopleSayHD from '../images/comics/crap-people-say_hd.png';
+import FriedChickenHD from '../images/comics/fried-chicken_hd.png';
+import CommunismHD from '../images/comics/communism_hd.png';
+import FeuerHD from '../images/sketches/fire_hd.png';
+import CoronavirraHD from '../images/sketches/coronavirra_hd.png';
+import CreepHD from '../images/sketches/creep_hd.png';
+import DuckHD from '../images/sketches/duck_hd.png';
+import LittleDevilHD from '../images/sketches/little_devil_hd.png';
+import AlienFaceHD from '../images/sketches/alien_face_hd.png';
 import CerealHD from '../images/sketches/cereal_hd.png';
 import KingHD from '../images/sketches/king_hd.png';
 import MickeyHD from '../images/sketches/mickey_hd.png';
@@ -106,16 +121,16 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const homepageConfig = {
     key: 'homepage',
     items: [
-        { text: "Me during quarantine", image: CoffeeOverdose, imageHD: CoffeeOverdose, type: 'SketchFrame' },
-        { text: "Stay the F home!!", image: Coronavirus, imageHD: Coronavirus, type: 'SketchFrame' },
-        { text: "Feuer", image: Feuer, imageHD: Feuer, type: 'SketchFrame' },
-        { text: "Working from hell", image: Wfh, imageHD: Wfh, type: 'SketchFrame' },
-        { text: "Coronavirra", image: Coronavirra, imageHD: Coronavirra, type: 'SketchFrame' },
-        { text: "Dinosaurs", image: Flinstones, imageHD: Flinstones, type: 'SketchFrame' },
-        { text: "Sweet dreams", image: Creep, imageHD: Creep, type: 'SketchFrame' },
-        { text: "Duckanism", image: Duck, imageHD: Duck, type: 'SketchFrame' },
-        { text: "It's pizza time", image: LittleDevil, imageHD: LittleDevil, type: 'SketchFrame' },
-        { text: "Dark times", image: AlienFace, imageHD: AlienFace, type: 'SketchFrame' },
+        { text: "Me during quarantine", image: CoffeeOverdose, imageHD: CoffeeOverdoseHD, type: 'SketchFrame' },
+        { text: "Stay the F home!!", image: Coronavirus, imageHD: CoronavirusHD, type: 'SketchFrame' },
+        { text: "Feuer", image: Feuer, imageHD: FeuerHD, type: 'SketchFrame' },
+        { text: "Working from hell", image: Wfh, imageHD: WfhHD, type: 'SketchFrame' },
+        { text: "Coronavirra", image: Coronavirra, imageHD: CoronavirraHD, type: 'SketchFrame' },
+        { text: "Dinosaurs", image: Flinstones, imageHD: FlinstonesHD, type: 'SketchFrame' },
+        { text: "Sweet dreams", image: Creep, imageHD: CreepHD, type: 'SketchFrame' },
+        { text: "Duckanism", image: Duck, imageHD: DuckHD, type: 'SketchFrame' },
+        { text: "It's pizza time", image: LittleDevil, imageHD: LittleDevilHD, type: 'SketchFrame' },
+        { text: "Dark times", image: AlienFace, imageHD: AlienFaceHD, type: 'SketchFrame' },
         { text: "Me having cereal with yogurt", image: Cereal, imageHD: CerealHD, type: 'SketchFrame' },
         { text: "King of Nothing", image: King, imageHD: KingHD, type: 'SketchFrame' },
         { text: "Mr.Mouse - Angry Edition", image: Mickey, imageHD: MickeyHD, type: 'SketchFrame' },
@@ -158,20 +173,20 @@ export const homepageConfig = {
         { text: "Illuminati", image: Insect, imageHD: InsectHD, type: 'SketchFrame' },
         { text: "Got a new spot, friends", image: Moving, imageHD: '', type: 'SketchFrame' },
         { text: "About summer", image: Grill, imageHD: GrillHD, type: 'SketchFrame' },
-        { text: "Coffee!", image: Coffee, imageHD: '', type: 'SketchFrame' },
+        { text: "Coffee!", image: Coffee, imageHD: CoffeeHD, type: 'SketchFrame' },
         { text: "Greetings from above", image: Alien, imageHD: AlienHD, type: 'SketchFrame' },
         { text: "Rainbows", image: Fish, imageHD: FishHD, type: 'SketchFrame' },
-        { text: "Stuck in traffic", image: Traffic, imageHD: '', type: 'SketchFrame' },
+        { text: "Stuck in traffic", image: Traffic, imageHD: TrafficHD, type: 'SketchFrame' },
         { url: 'https://www.youtube.com/embed/hhFY-TNanD4', description: 'Squad 37: Episode 6. K-K is a famous Hollywood actor and wont stop making movies. SPANISH', type: 'YoutubeFrame' },
         { type: 'SocialMediaFrame' },
         { text: "Carnival of an unwelcome Monday", image: Psychic, imageHD: PsychicHD, type: 'SketchFrame' },
         { text: "Me running from my inner ghosts", image: Ghosts, imageHD: GhostsHD, type: 'SketchFrame' },
-        { text: "I could've kept going", image: CrapPeopleSay, imageHD: '', type: 'SketchFrame' },
+        { text: "I could've kept going", image: CrapPeopleSay, imageHD: CrapPeopleSayHD, type: 'SketchFrame' },
         { text: "When I run out of coffee", image: FlyingDevil, imageHD: FlyingDevilHD, type: 'SketchFrame' },
-        { text: 'Fried chicken', image: FriedChicken, imageHD: '', type: 'SketchFrame' },
+        { text: 'Fried chicken', image: FriedChicken, imageHD: FriedChickenHD, type: 'SketchFrame' },
         { text: "Alternate representation of today's weather", image: ZombieFace, imageHD: ZombieFaceHD, type: 'SketchFrame' },
         { text: 'How you end up after eating broccoli', image: DesktopHero, imageHD: DesktopHeroHD, type: 'SketchFrame' },
-        { text: 'Orange juice', image: Communism, imageHD: '', type: 'SketchFrame' },
+        { text: 'Orange juice', image: Communism, imageHD: CommunismHD, type: 'SketchFrame' },
         { text: 'Bubblegum', image: FlamethrowerGuy, imageHD: FlamethrowerGuyHD, type: 'SketchFrame' },
         { text: 'Cloro', image: Cloro1, imageHD: Cloro1HD, type: 'SketchFrame' },
         { url: 'https://www.youtube.com/embed/Z8dAt71oyvQ', description: 'Squad 37: Episode 5. Pajaroman gets a visit from his ex girlfriend while Cloro creates a monster capable of eating everything, including people. SPANISH', type: 'YoutubeFrame' },
