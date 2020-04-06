@@ -1,3 +1,4 @@
+import Disney from '../images/sketches/disney.png';
 import CoffeeOverdose from '../images/sketches/coffee-overdose.png';
 import Coronavirus from '../images/comics/coronavirus-comic.png';
 import Feuer from '../images/sketches/fire.png';
@@ -59,6 +60,7 @@ import Communism from '../images/comics/communism.png';
 import FlamethrowerGuy from '../images/sketches/flamethrower-guy.png';
 import Cloro1 from '../images/sketches/cloro1.png';
 
+import DisneyHD from '../images/sketches/disney_hd.png';
 import CoffeeOverdoseHD from '../images/sketches/coffee-overdose_hd.png';
 import CoronavirusHD from '../images/comics/coronavirus-comic_hd.png';
 import WfhHD from '../images/comics/wfh_hd.png';
@@ -121,6 +123,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const homepageConfig = {
     key: 'homepage',
     items: [
+        { text: "Disney", image: Disney, imageHD: DisneyHD, type: 'SketchFrame' },
         { text: "Me during quarantine", image: CoffeeOverdose, imageHD: CoffeeOverdoseHD, type: 'SketchFrame' },
         { text: "Stay the F home!!", image: Coronavirus, imageHD: CoronavirusHD, type: 'SketchFrame' },
         { text: "Feuer", image: Feuer, imageHD: FeuerHD, type: 'SketchFrame' },
@@ -131,6 +134,7 @@ export const homepageConfig = {
         { text: "Duckanism", image: Duck, imageHD: DuckHD, type: 'SketchFrame' },
         { text: "It's pizza time", image: LittleDevil, imageHD: LittleDevilHD, type: 'SketchFrame' },
         { text: "Dark times", image: AlienFace, imageHD: AlienFaceHD, type: 'SketchFrame' },
+        { type: 'SocialMediaFrame' },
         { text: "Me having cereal with yogurt", image: Cereal, imageHD: CerealHD, type: 'SketchFrame' },
         { text: "King of Nothing", image: King, imageHD: KingHD, type: 'SketchFrame' },
         { text: "Mr.Mouse - Angry Edition", image: Mickey, imageHD: MickeyHD, type: 'SketchFrame' },
