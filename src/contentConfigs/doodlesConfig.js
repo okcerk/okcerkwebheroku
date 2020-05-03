@@ -1,3 +1,4 @@
+import Snake from '../images/sketches/snake.png';
 import Disney from '../images/sketches/disney.png';
 import CoffeeOverdose from '../images/sketches/coffee-overdose.png';
 import Feuer from '../images/sketches/fire.png';
@@ -50,6 +51,7 @@ import DesktopHero from '../images/sketches/desktop-hero.png';
 import FlamethrowerGuy from '../images/sketches/flamethrower-guy.png';
 import Cloro1 from '../images/sketches/cloro1.png';
 
+import SnakeHD from '../images/sketches/snake_hd.png';
 import DisneyHD from '../images/sketches/disney_hd.png';
 import CoffeeOverdoseHD from '../images/sketches/coffee-overdose_hd.png';
 import FeuerHD from '../images/sketches/fire_hd.png';
@@ -105,6 +107,7 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const doodlesConfig = {
     key: 'doodles',
     items: [
+        { text: "Conversations with myself", image: Snake, imageHD: SnakeHD, type: 'SketchFrame' },
         { text: "Disney", image: Disney, imageHD: DisneyHD, type: 'SketchFrame' },
         { text: "Me during quarantine", image: CoffeeOverdose, imageHD: CoffeeOverdoseHD, type: 'SketchFrame' },
         { text: "Feuer", image: Feuer, imageHD: FeuerHD, type: 'SketchFrame' },

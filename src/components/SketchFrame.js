@@ -20,7 +20,7 @@ const style = {
         //cursor: 'zoom-in',
         marginLeft: 20,
         marginRight: 20,
-        maxWidth: 600,        
+        maxWidth: 600,
     }
 };
 

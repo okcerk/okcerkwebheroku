@@ -1,3 +1,5 @@
+import CarsCovid from '../images/comics/cars-covid.png';
+import Snake from '../images/sketches/snake.png';
 import Disney from '../images/sketches/disney.png';
 import CoffeeOverdose from '../images/sketches/coffee-overdose.png';
 import Coronavirus from '../images/comics/coronavirus-comic.png';
@@ -60,6 +62,8 @@ import Communism from '../images/comics/communism.png';
 import FlamethrowerGuy from '../images/sketches/flamethrower-guy.png';
 import Cloro1 from '../images/sketches/cloro1.png';
 
+import CarsCovidHD from '../images/comics/cars-covid.png';
+import SnakeHD from '../images/sketches/snake.png';
 import DisneyHD from '../images/sketches/disney_hd.png';
 import CoffeeOverdoseHD from '../images/sketches/coffee-overdose_hd.png';
 import CoronavirusHD from '../images/comics/coronavirus-comic_hd.png';
@@ -123,6 +127,8 @@ import Cloro1HD from '../images/sketches/cloro1_hd.png';
 export const homepageConfig = {
     key: 'homepage',
     items: [
+        { text: "Your car needs you!", image: CarsCovid, imageHD: CarsCovidHD, type: 'SketchFrame' },
+        { text: "Conversations with myself", image: Snake, imageHD: SnakeHD, type: 'SketchFrame' },
         { text: "Disney", image: Disney, imageHD: DisneyHD, type: 'SketchFrame' },
         { text: "Me during quarantine", image: CoffeeOverdose, imageHD: CoffeeOverdoseHD, type: 'SketchFrame' },
         { text: "Stay the F home!!", image: Coronavirus, imageHD: CoronavirusHD, type: 'SketchFrame' },
