@@ -1,3 +1,5 @@
+import Robolution from "../images/sketches/robolution.jpg";
+import Amphibian from "../images/sketches/amphibian.jpg";
 import Tv from "../images/sketches/tv.png";
 import Snake from "../images/sketches/snake.png";
 import Disney from "../images/sketches/disney.png";
@@ -52,6 +54,8 @@ import DesktopHero from "../images/sketches/desktop-hero.png";
 import FlamethrowerGuy from "../images/sketches/flamethrower-guy.png";
 import Cloro1 from "../images/sketches/cloro1.png";
 
+import RobolutionHD from "../images/sketches/robolution_hd.jpg";
+import AmphibianHD from "../images/sketches/amphibian_hd.jpg";
 import TvHD from "../images/sketches/tv_hd.png";
 import SnakeHD from "../images/sketches/snake_hd.png";
 import DisneyHD from "../images/sketches/disney_hd.png";
@@ -110,6 +114,18 @@ export const doodlesConfig = {
   key: "doodles",
   items: [
     {
+      text: "Viva la Robolution!",
+      image: Robolution,
+      imageHD: RobolutionHD,
+      type: "SketchFrame",
+    },
+    {
+      text: "Invasion",
+      image: Amphibian,
+      imageHD: AmphibianHD,
+      type: "SketchFrame",
+    },
+    {
       text: "Where do we go from here?",
       image: Tv,
       imageHD: TvHD,
@@ -129,6 +145,7 @@ export const doodlesConfig = {
       type: "SketchFrame",
     },
     { text: "Feuer", image: Feuer, imageHD: FeuerHD, type: "SketchFrame" },
+    { type: "SocialMediaFrame" },
     {
       text: "Coronavirra",
       image: Coronavirra,

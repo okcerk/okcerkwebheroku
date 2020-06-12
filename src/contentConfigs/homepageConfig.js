@@ -1,3 +1,5 @@
+import Robolution from "../images/sketches/robolution.jpg";
+import Amphibian from "../images/sketches/amphibian.jpg";
 import Tv from "../images/sketches/tv.png";
 import CarsCovid from "../images/comics/cars-covid.png";
 import Snake from "../images/sketches/snake.png";
@@ -63,6 +65,8 @@ import Communism from "../images/comics/communism.png";
 import FlamethrowerGuy from "../images/sketches/flamethrower-guy.png";
 import Cloro1 from "../images/sketches/cloro1.png";
 
+import RobolutionHD from "../images/sketches/robolution_hd.jpg";
+import AmphibianHD from "../images/sketches/amphibian_hd.jpg";
 import TvHD from "../images/sketches/tv_hd.png";
 import CarsCovidHD from "../images/comics/cars-covid.png";
 import SnakeHD from "../images/sketches/snake.png";
@@ -130,6 +134,18 @@ export const homepageConfig = {
   key: "homepage",
   items: [
     {
+      text: "Viva la Robolution!",
+      image: Robolution,
+      imageHD: RobolutionHD,
+      type: "SketchFrame",
+    },
+    {
+      text: "Invasion",
+      image: Amphibian,
+      imageHD: AmphibianHD,
+      type: "SketchFrame",
+    },
+    {
       text: "Where do we go from here?",
       image: Tv,
       imageHD: TvHD,
@@ -148,6 +164,7 @@ export const homepageConfig = {
       type: "SketchFrame",
     },
     { text: "Disney", image: Disney, imageHD: DisneyHD, type: "SketchFrame" },
+    { type: "SocialMediaFrame" },
     {
       text: "Me during quarantine",
       image: CoffeeOverdose,
