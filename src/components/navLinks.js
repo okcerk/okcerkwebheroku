@@ -12,15 +12,15 @@ export const mainNavLinks = [
   { title: "Digital", image: optionDigital, link: "/digital" },
   { title: "Comics", image: optionComics, link: "/comics" },
   { title: "Ink", image: optionInk, link: "/ink" },
-  { title: "About", image: optionAbout, link: "/about" },
+  { title: "Escuadron 37", image: optionEscuadron37, link: "/escuadron37" },
 ];
 
 export const secondaryNavLinks = [
-  { title: "Escuadron 37", image: optionEscuadron37, link: "/escuadron37" },
   { title: "Inktober", image: optionInktober, link: "/inktober" },
   {
     title: "Blog",
     image: optionBlog,
     externalUri: "http://www.okcerk2.blogspot.com/",
   },
+  { title: "About", image: optionAbout, link: "/about" },
 ];
