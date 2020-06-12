@@ -1,5 +1,5 @@
-export const doodlesConfig = {
-  key: "doodles",
+export const digitalConfig = {
+  key: "digital",
   items: [
     {
       text: "Viva la Robolution!",
