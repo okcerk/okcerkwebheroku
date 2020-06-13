@@ -8,6 +8,7 @@ export const aboutPageConfig = {
       type: "TextFrame",
     },
     { text: "", image: "/assets/myself", type: "SketchFrame" },
+    { type: "TwitterFeedFrame" },
     { type: "SocialMediaFrame" },
   ],
 };

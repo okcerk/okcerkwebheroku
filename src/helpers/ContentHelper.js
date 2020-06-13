@@ -3,6 +3,7 @@ import SketchFrame from "../components/SketchFrame";
 import YoutubeFrame from "../components/YoutubeFrame";
 import TextFrame from "../components/TextFrame";
 import SocialMediaFrame from "../components/SocialMediaFrame";
+import TwitterFeedFrame from "../components/TwitterFeedFrame";
 import LinkFrame from "../components/LinkFrame";
 
 export const getContentFromConfig = (config) => {
@@ -36,6 +37,12 @@ export const getContentFromConfig = (config) => {
         list.push({
           key: key + i,
           content: <SocialMediaFrame />,
+        });
+        break;
+      case "TwitterFeedFrame":
+        list.push({
+          key: key + i,
+          content: <TwitterFeedFrame />,
         });
         break;
       case "LinkFrame":

@@ -15,6 +15,7 @@ const style = {
   body: {
     backgroundImage: `url(${backgroundImage})`,
     backgroundRepeat: "repeat",
+    top: 0,
   },
 };
 
