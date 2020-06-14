@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PageLink from "../PageLink";
 import SocialMediaLinks from "../SocialMediaLinks";
 import cloroImage from "../../images/cloro.png";
+import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 const style = {
   coreSection: {
@@ -24,12 +25,19 @@ const style = {
   },
   title: {
     fontSize: 30,
+    fontFamily: "monospace",
+    fontWeight: "bold",
     color: "white",
   },
   image: {
-    maxWidth: "90%",
-    maxHeight: "100%",
-    margin: 25,
+    maxWidth: "95%",
+    maxHeight: "1500px",
+    padding: 25,
+  },
+  twitterFrame: {
+    maxWidth: "50%",
+    minWidth: 600,
+    paddingBottom: 25,
   },
 };
 
@@ -79,6 +87,14 @@ class ArtworkPage extends Component {
           <div style={style.pageContent}>
             <div style={style.title}>{text}</div>
             <img style={style.image} src={imageHdPath} alt={text} />
+            <div style={style.twitterFrame}>
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="krecko4000"
+                options={{ height: 600 }}
+                theme="dark"
+              />
+            </div>
           </div>
         </div>
       </div>
