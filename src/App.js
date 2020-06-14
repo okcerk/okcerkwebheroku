@@ -11,6 +11,7 @@ import Inktober2018Page from "./components/pages/Inktober2018Page.js";
 import Inktober2019Page from "./components/pages/Inktober2019Page.js";
 import AboutPage from "./components/pages/AboutPage.js";
 import InkPage from "./components/pages/InkPage.js";
+import TitleComponent from "./components/TitleComponent.js";
 import backgroundImage from "./images/background.png";
 
 const trackingId = "UA-169364395-1"; // Google Analytics tracking ID
@@ -29,40 +30,84 @@ const style = {
   },
 };
 
+const withTitle = (component, title) => () => (
+  <>
+    <TitleComponent title={title} />
+    {component}
+  </>
+);
+
 class App extends Component {
   render() {
     return (
       <Router history={history}>
         <div style={style.body}>
-          <Route name="home" exact path="/" component={HomePage} />
-          <Route name="comics" exact path="/comics" component={ComicsPage} />
-          <Route name="digital" exact path="/digital" component={DigitalPage} />
-          <Route name="ink" exact path="/ink" component={InkPage} />
+          <Route
+            name="home"
+            exact
+            path="/"
+            component={withTitle(
+              <HomePage />,
+              "Okcerk - Cartoons and comics by Andres Marc"
+            )}
+          />
+          <Route
+            name="comics"
+            exact
+            path="/comics"
+            component={withTitle(<ComicsPage />, "Comics - Okcerk")}
+          />
+          <Route
+            name="digital"
+            exact
+            path="/digital"
+            component={withTitle(<DigitalPage />, "Digital artwork - Okcerk")}
+          />
+          <Route
+            name="ink"
+            exact
+            path="/ink"
+            component={withTitle(<InkPage />, "Ink artwork - Okcerk")}
+          />
           <Route
             name="escuadron37"
             exact
             path="/escuadron37"
-            component={Escuadron37Page}
+            component={withTitle(
+              <Escuadron37Page />,
+              "Escuadron 37 - Animation - Okcerk"
+            )}
           />
           <Route
             name="inktober"
             exact
             path="/inktober"
-            component={InktoberPage}
+            component={withTitle(<InktoberPage />, "Inktober - Okcerk")}
           />
           <Route
             name="inktober2018"
             exact
             path="/inktober2018"
-            component={Inktober2018Page}
+            component={withTitle(
+              <Inktober2018Page />,
+              "Inktober 2018 - Okcerk"
+            )}
           />
           <Route
             name="inktober2019"
             exact
             path="/inktober2019"
-            component={Inktober2019Page}
+            component={withTitle(
+              <Inktober2019Page />,
+              "Inktober 2019 - Okcerk"
+            )}
           />
-          <Route name="about" exact path="/about" component={AboutPage} />
+          <Route
+            name="about"
+            exact
+            path="/about"
+            component={withTitle(<AboutPage />, "About Andres Marc - Okcerk")}
+          />
         </div>
       </Router>
     );
