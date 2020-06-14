@@ -2,6 +2,11 @@ export const inkConfig = {
   key: "ink",
   items: [
     {
+      text: "Lizard God",
+      image: "/assets/ink/lizard_god",
+      type: "SketchFrame",
+    },
+    {
       text: "End of the road",
       image: "/assets/ink/end_of_road",
       type: "SketchFrame",
