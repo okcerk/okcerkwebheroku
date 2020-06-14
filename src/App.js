@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import ReactGA from "react-ga";
+import { createBrowserHistory } from "history";
 import HomePage from "./components/pages/HomePage.js";
 import ComicsPage from "./components/pages/ComicsPage.js";
 import DigitalPage from "./components/pages/DigitalPage.js";
@@ -10,6 +12,14 @@ import Inktober2019Page from "./components/pages/Inktober2019Page.js";
 import AboutPage from "./components/pages/AboutPage.js";
 import InkPage from "./components/pages/InkPage.js";
 import backgroundImage from "./images/background.png";
+
+const trackingId = "UA-169364395-1"; // Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+const history = createBrowserHistory();
+history.listen((location) => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 const style = {
   body: {
@@ -22,7 +32,7 @@ const style = {
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router history={history}>
         <div style={style.body}>
           <Route name="home" exact path="/" component={HomePage} />
           <Route name="comics" exact path="/comics" component={ComicsPage} />
