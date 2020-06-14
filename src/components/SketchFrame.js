@@ -26,7 +26,8 @@ const style = {
 
 class SketchFrame extends Component {
   render() {
-    const { text, image } = this.props;
+    const { text, image, itemKey, configKey } = this.props;
+    console.log(`itemKey: ${itemKey} ; configKey: ${configKey}`);
     const imagePath = `${process.env.PUBLIC_URL}${image}.jpg`;
     const imageHdPath = `${process.env.PUBLIC_URL}${image}_hd.jpg`;
     return (

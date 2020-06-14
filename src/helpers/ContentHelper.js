@@ -10,15 +10,17 @@ export const getContentFromConfig = (config) => {
   const key = config.key;
   let list = [];
 
-  for (let i = 0; i < config.items.length; i++) {
-    const item = config.items[i];
+  const itemsKeys = Object.keys(config.items);
+  for (let i = 0; i < itemsKeys.length; i++) {
+    const itemKey = itemsKeys[i];
+    const item = config.items[itemKey];
     const type = item.type;
 
     switch (type) {
       case "SketchFrame":
         list.push({
           key: key + i,
-          content: <SketchFrame {...item} />,
+          content: <SketchFrame itemKey={itemKey} configKey={key} {...item} />,
         });
         break;
       case "YoutubeFrame":

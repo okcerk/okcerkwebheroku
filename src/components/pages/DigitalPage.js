@@ -12,7 +12,7 @@ class DigitalPage extends Component {
       <MainPage
         pageLinks={mainNavLinks}
         secondaryPageLinks={secondaryNavLinks}
-        pageContentListLeft={digitalContent}
+        pageContentList={digitalContent}
       />
     );
   }

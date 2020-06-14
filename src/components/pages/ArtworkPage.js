@@ -1,0 +1,77 @@
+import React, { Component } from "react";
+import PageLink from "../PageLink";
+import SocialMediaLinks from "../SocialMediaLinks";
+import cloroImage from "../../images/cloro.png";
+
+const style = {
+  coreSection: {
+    textAlign: "-webkit-center",
+  },
+  pageLinks: {
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  },
+  pageContent: {
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  },
+  pageLink: {
+    cursor: "pointer",
+  },
+  cloro: {
+    marginTop: 20,
+  },
+};
+
+class MainPage extends Component {
+  render() {
+    const links = this.props.pageLinks.map((pagelink) => {
+      return (
+        <PageLink
+          key={pagelink.title}
+          title={pagelink.title}
+          image={pagelink.image}
+          link={pagelink.link}
+          externalUri={pagelink.externalUri}
+        />
+      );
+    });
+
+    const secondaryLinks = this.props.secondaryPageLinks.map(
+      (secondaryPageLink) => {
+        return (
+          <PageLink
+            key={secondaryPageLink.title}
+            title={secondaryPageLink.title}
+            image={secondaryPageLink.image}
+            link={secondaryPageLink.link}
+            externalUri={secondaryPageLink.externalUri}
+          />
+        );
+      }
+    );
+
+    return (
+      <div>
+        <div style={style.coreSection}>
+          <div style={style.pageLinks}>
+            {links}
+            <div style={style.cloro}>
+              <img src={cloroImage} />
+            </div>
+          </div>
+          <div style={style.pageLinks}>
+            {secondaryLinks}
+            <SocialMediaLinks />
+          </div>
+          <div style={style.pageContent}>{pageContentItems}</div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default MainPage;

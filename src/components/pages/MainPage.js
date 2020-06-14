@@ -34,10 +34,7 @@ class MainPage extends Component {
   constructor(props) {
     super(props);
 
-    const initialItems = this.props.pageContentListLeft.slice(
-      0,
-      ContentPageSize
-    );
+    const initialItems = this.props.pageContentList.slice(0, ContentPageSize);
     this.state = {
       items: initialItems,
       hasMoreItems: true,
@@ -50,10 +47,10 @@ class MainPage extends Component {
     if (
       this.state.hasMoreItems &&
       ContentPageSize * requestedPage <=
-        this.props.pageContentListLeft.length + ContentPageSize
+        this.props.pageContentList.length + ContentPageSize
     ) {
       this.setState({
-        items: this.props.pageContentListLeft.slice(
+        items: this.props.pageContentList.slice(
           0,
           ContentPageSize * requestedPage
         ),

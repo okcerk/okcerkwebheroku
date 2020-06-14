@@ -12,7 +12,7 @@ class InkPage extends Component {
       <MainPage
         pageLinks={mainNavLinks}
         secondaryPageLinks={secondaryNavLinks}
-        pageContentListLeft={inkContent}
+        pageContentList={inkContent}
       />
     );
   }

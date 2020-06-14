@@ -37,6 +37,8 @@ const withTitle = (component, title) => () => (
   </>
 );
 
+const titleWithEnding = (title) => `${title} - Okcerk.com`;
+
 class App extends Component {
   render() {
     return (
@@ -48,26 +50,29 @@ class App extends Component {
             path="/"
             component={withTitle(
               <HomePage />,
-              "Okcerk - Cartoons and comics by Andres Marc"
+              "Okcerk.com - Cartoons and comics by Andres Marc"
             )}
           />
           <Route
             name="comics"
             exact
             path="/comics"
-            component={withTitle(<ComicsPage />, "Comics - Okcerk")}
+            component={withTitle(<ComicsPage />, titleWithEnding("Comics"))}
           />
           <Route
             name="digital"
             exact
             path="/digital"
-            component={withTitle(<DigitalPage />, "Digital artwork - Okcerk")}
+            component={withTitle(
+              <DigitalPage />,
+              titleWithEnding("Digital artwork")
+            )}
           />
           <Route
             name="ink"
             exact
             path="/ink"
-            component={withTitle(<InkPage />, "Ink artwork - Okcerk")}
+            component={withTitle(<InkPage />, titleWithEnding("Ink artwork"))}
           />
           <Route
             name="escuadron37"
@@ -75,14 +80,14 @@ class App extends Component {
             path="/escuadron37"
             component={withTitle(
               <Escuadron37Page />,
-              "Escuadron 37 - Animation - Okcerk"
+              titleWithEnding("Escuadron 37 - Animation")
             )}
           />
           <Route
             name="inktober"
             exact
             path="/inktober"
-            component={withTitle(<InktoberPage />, "Inktober - Okcerk")}
+            component={withTitle(<InktoberPage />, titleWithEnding("Inktober"))}
           />
           <Route
             name="inktober2018"
@@ -90,7 +95,7 @@ class App extends Component {
             path="/inktober2018"
             component={withTitle(
               <Inktober2018Page />,
-              "Inktober 2018 - Okcerk"
+              titleWithEnding("Inktober 2018")
             )}
           />
           <Route
@@ -99,14 +104,17 @@ class App extends Component {
             path="/inktober2019"
             component={withTitle(
               <Inktober2019Page />,
-              "Inktober 2019 - Okcerk"
+              titleWithEnding("Inktober 2019")
             )}
           />
           <Route
             name="about"
             exact
             path="/about"
-            component={withTitle(<AboutPage />, "About Andres Marc - Okcerk")}
+            component={withTitle(
+              <AboutPage />,
+              titleWithEnding("About Andres Marc")
+            )}
           />
         </div>
       </Router>
