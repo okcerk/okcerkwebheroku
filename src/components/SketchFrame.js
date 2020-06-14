@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ModalImage from "react-modal-image";
 
 const style = {
   sketchFrame: {
@@ -16,32 +15,30 @@ const style = {
     marginTop: 0,
     color: "aliceblue",
   },
-  sketchImage: {
-    //cursor: 'zoom-in',
+  link: {
     marginLeft: 20,
     marginRight: 20,
     maxWidth: 600,
+  },
+  image: {
+    maxWidth: "100%",
+    maxHeight: "100%",
   },
 };
 
 class SketchFrame extends Component {
   render() {
     const { text, image, itemKey, configKey } = this.props;
-    console.log(`itemKey: ${itemKey} ; configKey: ${configKey}`);
     const imagePath = `${process.env.PUBLIC_URL}${image}.jpg`;
-    const imageHdPath = `${process.env.PUBLIC_URL}${image}_hd.jpg`;
     return (
       <div style={style.sketchFrame}>
         <div>
           <p style={style.sketchText}>{text}</p>
-          <div style={style.sketchImage}>
-            <ModalImage
-              small={imagePath}
-              large={imageHdPath}
-              alt={text}
-              hideZoom={true}
-            />
-          </div>
+          <a href={`/artwork/${configKey}/${itemKey}`}>
+            <div style={style.link}>
+              <img style={style.image} src={imagePath} alt={text} />
+            </div>
+          </a>
         </div>
       </div>
     );

@@ -14,8 +14,6 @@ const style = {
     justifyContent: "center",
   },
   pageContent: {
-    display: "flex",
-    flexWrap: "wrap",
     justifyContent: "center",
   },
   pageLink: {
@@ -24,9 +22,18 @@ const style = {
   cloro: {
     marginTop: 20,
   },
+  title: {
+    fontSize: 30,
+    color: "white",
+  },
+  image: {
+    maxWidth: "90%",
+    maxHeight: "100%",
+    margin: 25,
+  },
 };
 
-class MainPage extends Component {
+class ArtworkPage extends Component {
   render() {
     const links = this.props.pageLinks.map((pagelink) => {
       return (
@@ -54,6 +61,8 @@ class MainPage extends Component {
       }
     );
 
+    const text = this.props.text;
+    const imageHdPath = `${process.env.PUBLIC_URL}${this.props.image}_hd.jpg`;
     return (
       <div>
         <div style={style.coreSection}>
@@ -67,11 +76,14 @@ class MainPage extends Component {
             {secondaryLinks}
             <SocialMediaLinks />
           </div>
-          <div style={style.pageContent}>{pageContentItems}</div>
+          <div style={style.pageContent}>
+            <div style={style.title}>{text}</div>
+            <img style={style.image} src={imageHdPath} alt={text} />
+          </div>
         </div>
       </div>
     );
   }
 }
 
-export default MainPage;
+export default ArtworkPage;
