@@ -1,6 +1,11 @@
 export const digitalConfig = {
   key: "digital",
   items: {
+    "great-escape": {
+      text: "The great escape",
+      image: "/assets/digital/great_escape",
+      type: "SketchFrame",
+    },
     robolution: {
       text: "Viva la Robolution!",
       image: "/assets/digital/robolution",
