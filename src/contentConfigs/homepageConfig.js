@@ -5,6 +5,7 @@ export const homepageConfig = {
       text: "The great escape",
       image: "/assets/digital/great_escape",
       type: "SketchFrame",
+      configKey: "digital",
     },
     robolution: {
       text: "Viva la Robolution!",
