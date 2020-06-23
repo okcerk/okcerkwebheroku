@@ -1,6 +1,12 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    "sweet-bunny": {
+      text: "Sweet Bunny",
+      image: "/assets/digital/sweet_bunny",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
     "great-escape": {
       text: "The great escape",
       image: "/assets/digital/great_escape",
