@@ -1,6 +1,12 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    pet: {
+      text: "Feeding the enemy",
+      image: "/assets/digital/pet",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
     "pizza-fridge": {
       text: "Walking out of this world",
       image: "/assets/digital/alien2",
