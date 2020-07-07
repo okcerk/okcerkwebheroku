@@ -1,7 +1,7 @@
 export const digitalConfig = {
   key: "digital",
   items: {
-    bubblegum: {
+    bubblegum2: {
       text: "Bubble",
       image: "/assets/digital/bubblegum",
       type: "SketchFrame",
