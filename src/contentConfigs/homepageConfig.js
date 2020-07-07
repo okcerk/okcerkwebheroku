@@ -1,6 +1,12 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    bubblegum: {
+      text: "Bubble",
+      image: "/assets/digital/bubblegum",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
     knight: {
       text: "Stabbing soap",
       image: "/assets/digital/knight",
