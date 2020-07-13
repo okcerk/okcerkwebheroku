@@ -1,6 +1,11 @@
 export const digitalConfig = {
   key: "digital",
   items: {
+    war: {
+      text: "War",
+      image: "/assets/digital/war",
+      type: "SketchFrame",
+    },
     bubblegum2: {
       text: "Bubble",
       image: "/assets/digital/bubblegum",
