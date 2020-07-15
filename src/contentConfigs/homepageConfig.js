@@ -1,6 +1,12 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    crying: {
+      text: "Missing the ocean",
+      image: "/assets/digital/crying",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
     war: {
       text: "War",
       image: "/assets/digital/war",
