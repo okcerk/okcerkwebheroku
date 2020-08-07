@@ -1,6 +1,16 @@
 export const digitalConfig = {
   key: "digital",
   items: {
+    xmas: {
+      text: "Merry Xmas!",
+      image: "/assets/digital/xmas",
+      type: "SketchFrame",
+    },
+    smiley: {
+      text: "Super Smiley",
+      image: "/assets/digital/smiley",
+      type: "SketchFrame",
+    },
     purple: {
       text: "The sky is the limit",
       image: "/assets/digital/purple",

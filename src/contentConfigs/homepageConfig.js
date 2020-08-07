@@ -1,6 +1,18 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    xmas: {
+      text: "Merry Xmas!",
+      image: "/assets/digital/xmas",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
+    smiley: {
+      text: "Super Smiley",
+      image: "/assets/digital/smiley",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
     purple: {
       text: "The sky is the limit",
       image: "/assets/digital/purple",
