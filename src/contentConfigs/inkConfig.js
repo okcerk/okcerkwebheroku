@@ -1,6 +1,31 @@
 export const inkConfig = {
   key: "ink",
   items: {
+    kaiju: {
+      text: "Kaiju",
+      image: "/assets/ink/kaiju",
+      type: "SketchFrame",
+    },
+    "hour-of-terror": {
+      text: "Hour of Terror",
+      image: "/assets/ink/hour_of_terror",
+      type: "SketchFrame",
+    },
+    buggy: {
+      text: "Buggy",
+      image: "/assets/ink/buggy",
+      type: "SketchFrame",
+    },
+    psychic: {
+      text: "Psychic",
+      image: "/assets/ink/psychic",
+      type: "SketchFrame",
+    },
+    devil: {
+      text: "Devil",
+      image: "/assets/ink/devil",
+      type: "SketchFrame",
+    },
     "lizard-god": {
       text: "Lizard God",
       image: "/assets/ink/lizard_god",

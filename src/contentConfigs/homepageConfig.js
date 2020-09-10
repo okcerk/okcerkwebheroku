@@ -1,6 +1,41 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    /*"alien-robbery": {
+      url: "https://www.youtube.com/watch?v=kWkOEvXz-Ys",
+      description: "How to rob an alien. SPANISH WITH SUBS",
+      type: "YoutubeFrame",
+    },*/
+    finding: {
+      text: "The Finding",
+      image: "/assets/digital/finding",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
+    kaiju: {
+      text: "Kaiju",
+      image: "/assets/ink/kaiju",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
+    energy_drink: {
+      text: "Cave of Dreams",
+      image: "/assets/digital/energy_drink",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
+    sunny: {
+      text: "Dark at night",
+      image: "/assets/digital/sunny",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
+    "hour-of-terror": {
+      text: "Hour of Terror",
+      image: "/assets/ink/hour_of_terror",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     xmas: {
       text: "Merry Xmas!",
       image: "/assets/digital/xmas",
@@ -12,6 +47,12 @@ export const homepageConfig = {
       image: "/assets/digital/smiley",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    buggy: {
+      text: "Buggy",
+      image: "/assets/ink/buggy",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     purple: {
       text: "The sky is the limit",
@@ -25,6 +66,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "digital",
     },
+    psychic: {
+      text: "Psychic",
+      image: "/assets/ink/psychic",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     war: {
       text: "War",
       image: "/assets/digital/war",
@@ -36,6 +83,12 @@ export const homepageConfig = {
       image: "/assets/digital/bubblegum",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    devil: {
+      text: "Devil",
+      image: "/assets/ink/devil",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     knight: {
       text: "Stabbing soap",
@@ -49,6 +102,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "digital",
     },
+    "lizard-god": {
+      text: "Lizard God",
+      image: "/assets/ink/lizard_god",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     "pizza-fridge": {
       text: "Walking out of this world",
       image: "/assets/digital/alien2",
@@ -60,6 +119,12 @@ export const homepageConfig = {
       image: "/assets/digital/chazed",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    "end-of-the-road": {
+      text: "End of the road",
+      image: "/assets/ink/end_of_road",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     "sweet-bunny": {
       text: "Sweet Bunny",
@@ -73,6 +138,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "digital",
     },
+    "fish-person": {
+      text: "Fish person",
+      image: "/assets/ink/fish_person",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     robolution: {
       text: "Viva la Robolution!",
       image: "/assets/digital/robolution",
@@ -84,6 +155,12 @@ export const homepageConfig = {
       image: "/assets/digital/amphibian",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    "the-visit": {
+      text: "The visit",
+      image: "/assets/ink/the_visit",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     "where-do-we-go": {
       text: "Where do we go from here?",
@@ -97,6 +174,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "comics",
     },
+    termotanque: {
+      text: "Termotanque",
+      image: "/assets/ink/termotanque",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     "conversations-with-myself": {
       text: "Conversations with myself",
       image: "/assets/digital/snake",
@@ -108,6 +191,12 @@ export const homepageConfig = {
       image: "/assets/digital/disney",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    "monday-mornings": {
+      text: "Monday mornings",
+      image: "/assets/ink/monday_mornings",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     social7: { type: "SocialMediaFrame" },
     "me-during-quarantine": {
@@ -122,6 +211,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "comics",
     },
+    madman: {
+      text: "Madman",
+      image: "/assets/ink/madman",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     feuer: {
       text: "Feuer",
       image: "/assets/digital/fire",
@@ -133,6 +228,12 @@ export const homepageConfig = {
       image: "/assets/comics/wfh",
       type: "SketchFrame",
       configKey: "comics",
+    },
+    "tax-season": {
+      text: "Tax Season",
+      image: "/assets/ink/tax_season",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     coronavirra: {
       text: "Coronavirra",
@@ -146,6 +247,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "comics",
     },
+    "that-place-you-never-got-to-go": {
+      text: "That place you never got to go",
+      image: "/assets/ink/desert",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     "sweet-dreams2": {
       text: "Sweet dreams",
       image: "/assets/digital/creep",
@@ -158,6 +265,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "digital",
     },
+    "where-will-you-be": {
+      text: "Where will you be when the chocolate is all gone?",
+      image: "/assets/ink/chocolate_gone",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     "pizza-time": {
       text: "It's pizza time",
       image: "/assets/digital/little_devil",
@@ -169,6 +282,12 @@ export const homepageConfig = {
       image: "/assets/digital/alien_face",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    "the-lost-world": {
+      text: "The Lost World",
+      image: "/assets/ink/the_lost_world",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     social6: { type: "SocialMediaFrame" },
     cereal: {
@@ -183,6 +302,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "digital",
     },
+    fire: {
+      text: "Fire",
+      image: "/assets/ink/fire",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     mickey: {
       text: "Mr.Mouse - Angry Edition",
       image: "/assets/digital/mickey",
@@ -194,6 +319,12 @@ export const homepageConfig = {
       image: "/assets/digital/dude_and_fly",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    "last-goodbye": {
+      text: "Last Goodbye",
+      image: "/assets/ink/last_goodbye",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     "three-eyed-monster": {
       text: "Three Eyed Monster",
@@ -207,6 +338,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "digital",
     },
+    "little-boy": {
+      text: "Little boy",
+      image: "/assets/ink/little_boy",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     "dark-sponge": {
       text: "Dark Sponge Times",
       image: "/assets/digital/sponge",
@@ -219,6 +356,12 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "digital",
     },
+    rat: {
+      text: "Rat",
+      image: "/assets/ink/rat",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     "monster-project": {
       text: "Monster Project",
       image: "/assets/digital/monster_project_14",
@@ -230,6 +373,12 @@ export const homepageConfig = {
       image: "/assets/digital/tax_season",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    "vacation-planning": {
+      text: "Vacation planning",
+      image: "/assets/ink/vacation_planning",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     social5: { type: "SocialMediaFrame" },
     "lights-on": {
@@ -244,6 +393,12 @@ export const homepageConfig = {
         "Squad 37: Episode 9. Cacho invites a bunch of superheroes to the spaceship for a meeting. Soda will try to kill everyone. SPANISH",
       type: "YoutubeFrame",
     },
+    "warming-up": {
+      text: "Warming up",
+      image: "/assets/ink/warming_up",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
     "branderburg-gate": {
       text: "Brandenburg Gate under attack",
       image: "/assets/digital/berlin-monster",
@@ -255,6 +410,12 @@ export const homepageConfig = {
       image: "/assets/digital/undead",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    wochenende: {
+      text: "Wo ist mein Wochenende?",
+      image: "/assets/ink/wochenende",
+      type: "SketchFrame",
+      configKey: "ink",
     },
     angular: {
       text: "Angular",
