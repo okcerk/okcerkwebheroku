@@ -1,11 +1,12 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
-    /*"alien-robbery": {
-      url: "https://www.youtube.com/watch?v=kWkOEvXz-Ys",
-      description: "How to rob an alien. SPANISH WITH SUBS",
+    "alien-robbery": {
+      url: "https://www.youtube.com/embed/kWkOEvXz-Ys",
+      description:
+        "Detailed instructions on how to approach an alien in the streets and rob him. SPANISH WITH SUBS",
       type: "YoutubeFrame",
-    },*/
+    },
     finding: {
       text: "The Finding",
       image: "/assets/digital/finding",
@@ -65,6 +66,11 @@ export const homepageConfig = {
       image: "/assets/digital/crying",
       type: "SketchFrame",
       configKey: "digital",
+    },
+    "time-travel": {
+      url: "https://www.youtube.com/embed/S5BKaraRpZQ",
+      description: "La reina de la bailanta. SPANISH WITH SUBS",
+      type: "YoutubeFrame",
     },
     psychic: {
       text: "Psychic",
