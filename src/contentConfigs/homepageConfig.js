@@ -3,7 +3,7 @@ export const homepageConfig = {
   items: {
     insomnia: {
       text: "Insomnia",
-      image: "/assets/digital/finding",
+      image: "/assets/digital/insomnia",
       type: "SketchFrame",
       configKey: "digital",
     },

@@ -3,7 +3,7 @@ export const digitalConfig = {
   items: {
     insomnia: {
       text: "Insomnia",
-      image: "/assets/digital/finding",
+      image: "/assets/digital/insomnia",
       type: "SketchFrame",
     },
     finding: {
