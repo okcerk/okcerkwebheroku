@@ -1,6 +1,12 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    insomnia: {
+      text: "Insomnia",
+      image: "/assets/digital/finding",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
     "alien-robbery": {
       url: "https://www.youtube.com/embed/kWkOEvXz-Ys",
       description:
