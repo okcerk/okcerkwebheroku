@@ -1,6 +1,11 @@
 export const inkConfig = {
   key: "ink",
   items: {
+    "food-poisoning": {
+      text: "Food Poisoning",
+      image: "/assets/ink/food_poisoning",
+      type: "SketchFrame",
+    },
     kaiju: {
       text: "Kaiju",
       image: "/assets/ink/kaiju",
