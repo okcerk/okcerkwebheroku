@@ -30,7 +30,7 @@ export const getConfigFromKey = (configKey) => {
 
 export const getContentFromConfig = (config) => {
   const key = config.key;
-  let list = [];
+  const list = [];
 
   const itemsKeys = Object.keys(config.items);
   for (let i = 0; i < itemsKeys.length; i++) {

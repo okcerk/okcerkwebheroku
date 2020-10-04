@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import PageLink from "../PageLink";
 import SocialMediaLinks from "../SocialMediaLinks";
 import cloroImage from "../../images/cloro.png";
@@ -39,67 +39,60 @@ const style = {
     minWidth: 600,
     paddingBottom: 25,
   },
+  twitterOptions: {
+    height: 600,
+  },
 };
 
-class ArtworkPage extends Component {
-  render() {
-    const links = this.props.pageLinks.map((pagelink) => {
-      return (
-        <PageLink
-          key={pagelink.title}
-          title={pagelink.title}
-          image={pagelink.image}
-          link={pagelink.link}
-          externalUri={pagelink.externalUri}
-        />
-      );
-    });
+const ArtworkPage = (props) => {
+  const links = props.pageLinks.map((pageLink) => (
+    <PageLink
+      key={pageLink.title}
+      title={pageLink.title}
+      image={pageLink.image}
+      link={pageLink.link}
+      externalUri={pageLink.externalUri}
+    />
+  ));
 
-    const secondaryLinks = this.props.secondaryPageLinks.map(
-      (secondaryPageLink) => {
-        return (
-          <PageLink
-            key={secondaryPageLink.title}
-            title={secondaryPageLink.title}
-            image={secondaryPageLink.image}
-            link={secondaryPageLink.link}
-            externalUri={secondaryPageLink.externalUri}
-          />
-        );
-      }
-    );
+  const secondaryLinks = props.secondaryPageLinks.map((secondaryPageLink) => (
+    <PageLink
+      key={secondaryPageLink.title}
+      title={secondaryPageLink.title}
+      image={secondaryPageLink.image}
+      link={secondaryPageLink.link}
+      externalUri={secondaryPageLink.externalUri}
+    />
+  ));
 
-    const text = this.props.text;
-    const imageHdPath = `${process.env.PUBLIC_URL}${this.props.image}_hd.jpg`;
-    return (
-      <div>
-        <div style={style.coreSection}>
-          <div style={style.pageLinks}>
-            {links}
-            <div style={style.cloro}>
-              <img src={cloroImage} />
-            </div>
-          </div>
-          <div style={style.pageLinks}>
-            {secondaryLinks}
-            <SocialMediaLinks />
-          </div>
-          <div style={style.pageContent}>
-            <div style={style.title}>{text}</div>
-            <img style={style.image} src={imageHdPath} alt={text} />
-            <div style={style.twitterFrame}>
-              <TwitterTimelineEmbed
-                sourceType="profile"
-                screenName="krecko4000"
-                options={{ height: 600 }}
-                theme="dark"
-              />
-            </div>
-          </div>
+  const text = props.text;
+  const imageHdPath = `${process.env.PUBLIC_URL}${props.image}_hd.jpg`;
+  return (
+    <div style={style.coreSection}>
+      <div style={style.pageLinks}>
+        {links}
+        <div style={style.cloro}>
+          <img src={cloroImage} alt="cloro" />
         </div>
       </div>
-    );
-  }
-}
+      <div style={style.pageLinks}>
+        {secondaryLinks}
+        <SocialMediaLinks />
+      </div>
+      <div style={style.pageContent}>
+        <div style={style.title}>{text}</div>
+        <img style={style.image} src={imageHdPath} alt={text} />
+        <div style={style.twitterFrame}>
+          <TwitterTimelineEmbed
+            sourceType="profile"
+            screenName="krecko4000"
+            options={style.twitterOptions}
+            theme="dark"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default ArtworkPage;

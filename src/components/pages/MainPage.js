@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import PageLink from "../PageLink";
 import PageContent from "../PageContent";
 import SocialMediaLinks from "../SocialMediaLinks";
@@ -30,97 +30,73 @@ const style = {
 
 const ContentPageSize = 3;
 
-class MainPage extends Component {
-  constructor(props) {
-    super(props);
+const MainPage = (props) => {
+  const [items, setItems] = useState(
+    props.pageContentList.slice(0, ContentPageSize)
+  );
+  const [hasMoreItems, setHasMoreItems] = useState(true);
 
-    const initialItems = this.props.pageContentList.slice(0, ContentPageSize);
-    this.state = {
-      items: initialItems,
-      hasMoreItems: true,
-    };
-  }
-
-  loadItems = (page) => {
+  const loadItems = (page) => {
     const requestedPage = page + 1;
 
     if (
-      this.state.hasMoreItems &&
+      hasMoreItems &&
       ContentPageSize * requestedPage <=
-        this.props.pageContentList.length + ContentPageSize
+        props.pageContentList.length + ContentPageSize
     ) {
-      this.setState({
-        items: this.props.pageContentList.slice(
-          0,
-          ContentPageSize * requestedPage
-        ),
-      });
+      setItems(props.pageContentList.slice(0, ContentPageSize * requestedPage));
     } else {
-      this.setState({ hasMoreItems: false });
+      setHasMoreItems(false);
     }
   };
 
-  render() {
-    const links = this.props.pageLinks.map(function (pagelink, index) {
-      return (
-        <PageLink
-          key={pagelink.title}
-          title={pagelink.title}
-          image={pagelink.image}
-          link={pagelink.link}
-          externalUri={pagelink.externalUri}
-        />
-      );
-    });
+  const links = props.pageLinks.map((pageLink) => (
+    <PageLink
+      key={pageLink.title}
+      title={pageLink.title}
+      image={pageLink.image}
+      link={pageLink.link}
+      externalUri={pageLink.externalUri}
+    />
+  ));
 
-    const secondaryLinks = this.props.secondaryPageLinks.map(function (
-      secondaryPageLink,
-      index
-    ) {
-      return (
-        <PageLink
-          key={secondaryPageLink.title}
-          title={secondaryPageLink.title}
-          image={secondaryPageLink.image}
-          link={secondaryPageLink.link}
-          externalUri={secondaryPageLink.externalUri}
-        />
-      );
-    });
+  const secondaryLinks = props.secondaryPageLinks.map((secondaryPageLink) => (
+    <PageLink
+      key={secondaryPageLink.title}
+      title={secondaryPageLink.title}
+      image={secondaryPageLink.image}
+      link={secondaryPageLink.link}
+      externalUri={secondaryPageLink.externalUri}
+    />
+  ));
 
-    const pageContentItems = this.state.items.map(function (
-      pageContent,
-      index
-    ) {
-      return (
-        <PageContent key={pageContent.key} content={pageContent.content} />
-      );
-    });
+  const pageContentItems = items.map((pageContent) => (
+    <PageContent key={pageContent.key} content={pageContent.content} />
+  ));
 
-    return (
-      <div>
-        <div style={style.coreSection}>
-          <div style={style.pageLinks}>
-            {links}
-            <div style={style.cloro}>
-              <img src={cloroImage} />
-            </div>
+  return (
+    <div>
+      <div style={style.coreSection}>
+        <div style={style.pageLinks}>
+          {links}
+          <div style={style.cloro}>
+            <img src={cloroImage} alt="cloro" />
           </div>
-          <div style={style.pageLinks}>
-            {secondaryLinks}
-            <SocialMediaLinks />
-          </div>
-          <InfiniteScroll
-            pageStart={0}
-            loadMore={this.loadItems}
-            hasMore={this.state.hasMoreItems}
-          >
-            <div style={style.pageContent}>{pageContentItems}</div>
-          </InfiniteScroll>
         </div>
+        <div style={style.pageLinks}>
+          {secondaryLinks}
+          <SocialMediaLinks />
+        </div>
+        <InfiniteScroll
+          pageStart={0}
+          loadMore={loadItems}
+          hasMore={hasMoreItems}
+        >
+          <div style={style.pageContent}>{pageContentItems}</div>
+        </InfiniteScroll>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default MainPage;

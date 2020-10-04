@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const style = {
   sketchFrame: {
@@ -26,23 +26,21 @@ const style = {
   },
 };
 
-class SketchFrame extends Component {
-  render() {
-    const { text, image, itemKey, configKey } = this.props;
-    const imagePath = `${process.env.PUBLIC_URL}${image}.jpg`;
-    return (
-      <div style={style.sketchFrame}>
-        <div>
-          <p style={style.sketchText}>{text}</p>
-          <a href={`/artwork/${configKey}/${itemKey}`}>
-            <div style={style.link}>
-              <img style={style.image} src={imagePath} alt={text} />
-            </div>
-          </a>
-        </div>
+const SketchFrame = (props) => {
+  const { text, image, itemKey, configKey } = props;
+  const imagePath = `${process.env.PUBLIC_URL}${image}.jpg`;
+  return (
+    <div style={style.sketchFrame}>
+      <div>
+        <p style={style.sketchText}>{text}</p>
+        <a href={`/artwork/${configKey}/${itemKey}`}>
+          <div style={style.link}>
+            <img style={style.image} src={imagePath} alt={text} />
+          </div>
+        </a>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default SketchFrame;

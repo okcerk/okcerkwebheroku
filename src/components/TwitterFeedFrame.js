@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 const style = {
@@ -6,21 +6,20 @@ const style = {
     maxWidth: 600,
     minWidth: 600,
   },
+  twitterOptions: {
+    height: 600,
+  },
 };
 
-class TwitterFeedFrame extends Component {
-  render() {
-    return (
-      <div style={style.twitterFrame}>
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="krecko4000"
-          options={{ height: 600 }}
-          theme="dark"
-        />
-      </div>
-    );
-  }
-}
+const TwitterFeedFrame = () => (
+  <div style={style.twitterFrame}>
+    <TwitterTimelineEmbed
+      sourceType="profile"
+      screenName="krecko4000"
+      options={style.twitterOptions}
+      theme="dark"
+    />
+  </div>
+);
 
 export default TwitterFeedFrame;
