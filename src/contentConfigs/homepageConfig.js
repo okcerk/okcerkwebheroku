@@ -1,6 +1,18 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    hands: {
+      text: "Food Poisoning",
+      image: "/assets/ink/hands",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
+    "me-after-2020": {
+      text: "Insomnia",
+      image: "/assets/digital/me_after_2020",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
     "food-poisoning": {
       text: "Food Poisoning",
       image: "/assets/ink/food_poisoning",
