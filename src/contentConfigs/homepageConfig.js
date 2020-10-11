@@ -1,6 +1,12 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    unknown: {
+      text: "Unknown",
+      image: "/assets/digital/unknown",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
     hands: {
       text: "Food Poisoning",
       image: "/assets/ink/hands",
@@ -19,18 +25,18 @@ export const homepageConfig = {
       type: "SketchFrame",
       configKey: "ink",
     },
-    insomnia: {
-      text: "Insomnia",
-      image: "/assets/digital/insomnia",
-      type: "SketchFrame",
-      configKey: "digital",
-    },
     "alien-robbery": {
       url: "https://www.youtube.com/embed/kWkOEvXz-Ys",
       description:
         "Detailed instructions on how to approach an alien in the streets and rob him. SPANISH WITH SUBS",
       type: "YoutubeFrame",
     },
+    insomnia: {
+      text: "Insomnia",
+      image: "/assets/digital/insomnia",
+      type: "SketchFrame",
+      configKey: "digital",
+    },    
     finding: {
       text: "The Finding",
       image: "/assets/digital/finding",

@@ -1,6 +1,11 @@
 export const digitalConfig = {
   key: "digital",
   items: {
+    unknown: {
+      text: "Unknown",
+      image: "/assets/digital/unknown",
+      type: "SketchFrame",
+    },
     "me-after-2020": {
       text: "Insomnia",
       image: "/assets/digital/me_after_2020",
