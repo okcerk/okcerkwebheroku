@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deploying
+
+Once git+heroku are configured, make sure you do:
+git push origin master
+git push heroku master
+
+So that both are kept in synch.
+
+
 ## Available Scripts
 
 In the project directory, you can run:

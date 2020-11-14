@@ -1,6 +1,16 @@
 export const inkConfig = {
   key: "ink",
   items: {
+    escaping_paradise: {
+      text: "Escaping Paradise",
+      image: "/assets/ink/escaping_paradise",
+      type: "SketchFrame",
+    },
+    default_halloween: {
+      text: "Default Halloween Themed Post",
+      image: "/assets/ink/default_halloween",
+      type: "SketchFrame",
+    },
     hands: {
       text: "Food Poisoning",
       image: "/assets/ink/hands",

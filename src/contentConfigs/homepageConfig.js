@@ -1,6 +1,30 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
+    escaping_paradise: {
+      text: "Escaping Paradise",
+      image: "/assets/ink/escaping_paradise",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
+    hilloween: {
+      text: "Hilloween",
+      image: "/assets/digital/hilloween",
+      type: "SketchFrame",
+      configKey: "digital",
+    },
+    default_halloween: {
+      text: "Default Halloween Themed Post",
+      image: "/assets/ink/default_halloween",
+      type: "SketchFrame",
+      configKey: "ink",
+    },
+    doggface: {
+      url: "https://www.youtube.com/embed/2vhOw5EQFGk",
+      description:
+        "Doggface's Fleetwood Mac Skateboarding",
+      type: "YoutubeFrame",
+    },
     unknown: {
       text: "Unknown",
       image: "/assets/digital/unknown",
