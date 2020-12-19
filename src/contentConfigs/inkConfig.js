@@ -1,6 +1,31 @@
 export const inkConfig = {
   key: "ink",
   items: {
+    rise_dragon: {
+      text: "Rise of the Dragon",
+      image: "/assets/ink/rise_dragon",
+      type: "SketchFrame",
+    },
+    when_pigs_fly: {
+      text: "When pigs fly",
+      image: "/assets/ink/when_pigs_fly",
+      type: "SketchFrame",
+    },
+    evolution: {
+      text: "Evolution",
+      image: "/assets/ink/evolution",
+      type: "SketchFrame",
+    },
+    ska_not_dead: {
+      text: "Ska not dead",
+      image: "/assets/ink/ska_not_dead",
+      type: "SketchFrame",
+    },
+    milanga: {
+      text: "The Truth of the Milanga",
+      image: "/assets/ink/milanga",
+      type: "SketchFrame",
+    },
     escaping_paradise: {
       text: "Escaping Paradise",
       image: "/assets/ink/escaping_paradise",
