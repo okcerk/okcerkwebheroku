@@ -9,6 +9,8 @@ const style = {
     fontWeight: "bold",
     margin: 10,
     width: 500,
+    color: "#eceae9",
+    fontSize: 20,
   },
 };
 

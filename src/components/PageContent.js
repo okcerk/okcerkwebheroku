@@ -2,12 +2,13 @@ import React from "react";
 
 const style = {
   displayedContent: {
-    backgroundColor: "steelblue",
+    backgroundColor: "#4e73a7",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     margin: 20,
     padding: 20,
+    borderRadius: 20,
   },
 };
 

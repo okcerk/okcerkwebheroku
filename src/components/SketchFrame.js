@@ -10,10 +10,10 @@ const style = {
   },
   sketchText: {
     fontFamily: "monospace",
-    fontSize: 20,
+    fontSize: 25,
     fontWeight: "bold",
     marginTop: 0,
-    color: "aliceblue",
+    color: "#eceae9",
   },
   link: {
     marginLeft: 20,
