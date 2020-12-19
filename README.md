@@ -1,13 +1,24 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Configure heroku
+
+1. Download Heroku cli from here: https://devcenter.heroku.com/articles/heroku-cli
+2. Install, make sure path is set. If not go to system environment variables and modify Path both for current user and system
+   and add path: C:/Program Files/heroku/bin
+3. You may need to reboot VSCode to take the new env variables
+4. From the root of this directory do:
+   heroku login (this will open a browser where you'll have to login)
+   heroku git:remote -a desolate-depths-91525 (where the last is the name of the app set in heroku, 
+   in this case that's my app's name)
+
 ## Deploying
 
-Once git+heroku are configured, make sure you do:
+Once git+heroku are configured and all changes committed, make sure you do:
 git push origin master
 git push heroku master
 
 So that both are kept in synch.
-
+Ideally master should be updated first :)
 
 ## Available Scripts
 
