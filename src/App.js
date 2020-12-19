@@ -46,7 +46,7 @@ const titleWithEnding = (title) => `${title} - Okcerk.com`;
 
 const getArtwork = ({ match }) => {
   if (!match.params.artKey) {
-    return homepage;
+    return homepage();
   }
 
   const configKey = match.params.configKey.toLocaleLowerCase();
@@ -55,13 +55,13 @@ const getArtwork = ({ match }) => {
   const config = getConfigFromKey(configKey);
 
   if (!config) {
-    return homepage;
+    return homepage();
   }
 
   const artworkConfig = config.items[artKey];
 
   if (!artworkConfig) {
-    return homepage;
+    return homepage();
   }
 
   return withTitle(

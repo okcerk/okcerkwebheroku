@@ -24,16 +24,19 @@ const style = {
     maxWidth: "100%",
     maxHeight: "100%",
   },
+  disabled: {
+    pointerEvents: "none"
+  },
 };
 
 const SketchFrame = (props) => {
-  const { text, image, itemKey, configKey } = props;
+  const { text, image, itemKey, configKey, disabledLink } = props;
   const imagePath = `${process.env.PUBLIC_URL}${image}.jpg`;
   return (
     <div style={style.sketchFrame}>
       <div>
         <p style={style.sketchText}>{text}</p>
-        <a href={`/artwork/${configKey}/${itemKey}`}>
+        <a href={`/artwork/${configKey}/${itemKey}`} style={disabledLink ? style.disabled : {}}>
           <div style={style.link}>
             <img style={style.image} src={imagePath} alt={text} />
           </div>
