@@ -6,7 +6,7 @@ const style = {
     minWidth: 600,
   },
   text: {
-    color: "#eceae9",
+    color: "white",
     fontFamily: "monospace",
     fontSize: 20,
   },

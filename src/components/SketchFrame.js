@@ -13,7 +13,7 @@ const style = {
     fontSize: 25,
     fontWeight: "bold",
     marginTop: 0,
-    color: "#eceae9",
+    color: "white",
   },
   link: {
     marginLeft: 20,
