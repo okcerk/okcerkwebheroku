@@ -1,9 +1,9 @@
 export const homepageConfig = {
   key: "homepage",
   items: {
-    escaping_paradise: {
-      text: "Escaping Paradise",
-      image: "/assets/ink/escaping_paradise",
+    ska_not_dead: {
+      text: "Ska not dead",
+      image: "/assets/ink/ska_not_dead",
       type: "SketchFrame",
       configKey: "ink",
     },
