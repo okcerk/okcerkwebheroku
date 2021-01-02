@@ -5,7 +5,8 @@ body, html {
 
 body {
   background-image: url('assets/background.png');
-  background-repeat: "repeat";
+  background-repeat: repeat;
+  background-attachment: fixed;
   top: 0;
 }
 
