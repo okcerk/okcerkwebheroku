@@ -7,7 +7,7 @@ import PageContent from "../PageContent";
 import SocialMediaLinks from "../SocialMediaLinks";
 import cloroImage from "../../images/cloro.png";
 import InfiniteScroll from "react-infinite-scroller";
-import { getContentFromConfig } from "../../helpers/contentHelper";
+import { getContentFromConfig } from "../../helpers/contentConfigHelper";
 
 const style = {
   coreSection: {
