@@ -2,7 +2,6 @@ import { put, select } from 'redux-saga/effects';
 import { getPageConfig } from "../selectors";
  
 export function* fetchPageConfigSaga(action) {
-    yield console.log("saga triggered!");
     if (!action || !action.pageConfigName) {
         return;
     }

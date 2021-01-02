@@ -1,3 +1,4 @@
+import React from "react";
 import signatureImage from "../images/signature.png";
 import optionInktober from "../images/option-inktober.png";
 import optionDigital from "../images/option-digital.png";
@@ -6,6 +7,7 @@ import optionInk from "../images/option-ink.png";
 import optionEscuadron37 from "../images/option-escuadron37.png";
 import optionBlog from "../images/option-blog.png";
 import optionAbout from "../images/option-about.png";
+import PageLink from "./PageLink";
 
 export const mainNavLinks = [
   { title: "Home", image: signatureImage, link: "/" },
@@ -24,3 +26,23 @@ export const secondaryNavLinks = [
   },
   { title: "About", image: optionAbout, link: "/about" },
 ];
+
+export const headerLinks = mainNavLinks.map((pageLink) => (
+  <PageLink
+    key={pageLink.title}
+    title={pageLink.title}
+    image={pageLink.image}
+    link={pageLink.link}
+    externalUri={pageLink.externalUri}
+  />
+));
+
+export const secondaryHeaderLinks = secondaryNavLinks.map((secondaryPageLink) => (
+  <PageLink
+    key={secondaryPageLink.title}
+    title={secondaryPageLink.title}
+    image={secondaryPageLink.image}
+    link={secondaryPageLink.link}
+    externalUri={secondaryPageLink.externalUri}
+  />
+));
