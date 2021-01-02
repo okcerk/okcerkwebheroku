@@ -5,37 +5,18 @@ import TextFrame from "../components/TextFrame";
 import SocialMediaFrame from "../components/SocialMediaFrame";
 import TwitterFeedFrame from "../components/TwitterFeedFrame";
 import LinkFrame from "../components/LinkFrame";
-import { digitalConfig } from "../contentConfigs/digitalConfig";
-import { comicsConfig } from "../contentConfigs/comicsConfig";
-import { inkConfig } from "../contentConfigs/inkConfig";
-import { inktober2018Config } from "../contentConfigs/inktober2018Config";
-import { inktober2019Config } from "../contentConfigs/inktober2019Config";
 
-export const getConfigFromKey = (configKey) => {
-  switch (configKey) {
-    case "digital":
-      return digitalConfig;
-    case "comics":
-      return comicsConfig;
-    case "ink":
-      return inkConfig;
-    case "inktober2018":
-      return inktober2018Config;
-    case "inktober2019":
-      return inktober2019Config;
-    default:
-      return null;
+export const getContentFromConfig = (key, items) => {
+  if (!key || !items) {
+    return [];
   }
-};
 
-export const getContentFromConfig = (config) => {
-  const key = config.key;
-  const list = [];
+  const list = [];  
 
-  const itemsKeys = Object.keys(config.items);
+  const itemsKeys = Object.keys(items);
   for (let i = 0; i < itemsKeys.length; i++) {
     const itemKey = itemsKeys[i];
-    const item = config.items[itemKey];
+    const item = items[itemKey];
     const type = item.type;
 
     switch (type) {

@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { mainNavLinks, secondaryNavLinks } from "../navLinks";
+import { useDispatch } from "react-redux";
+import { usePageConfig } from "../../redux/selectors";
 import PageLink from "../PageLink";
 import PageContent from "../PageContent";
 import SocialMediaLinks from "../SocialMediaLinks";
 import cloroImage from "../../images/cloro.png";
 import InfiniteScroll from "react-infinite-scroller";
+import { getContentFromConfig } from "../../helpers/contentHelper";
 
 const style = {
   coreSection: {
@@ -30,9 +34,9 @@ const style = {
 
 const ContentPageSize = 3;
 
-const MainPage = (props) => {
+const ReadyToRenderPage = (props) => {
   const [items, setItems] = useState(
-    props.pageContentList.slice(0, ContentPageSize)
+    props.pageContentList ? props.pageContentList.slice(0, ContentPageSize) : []
   );
   const [hasMoreItems, setHasMoreItems] = useState(true);
 
@@ -41,6 +45,7 @@ const MainPage = (props) => {
 
     if (
       hasMoreItems &&
+      props.pageContentList && 
       ContentPageSize * requestedPage <=
         props.pageContentList.length + ContentPageSize
     ) {
@@ -98,5 +103,39 @@ const MainPage = (props) => {
     </div>
   );
 };
+
+const MainPage = (props) => {
+  const { pageConfigName } = props; 
+  console.log("rendering page");
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch({ type: 'FETCH_PAGE_CONFIG_START', pageConfigName});
+  }, []);
+
+  const pageConfig = usePageConfig(pageConfigName);
+
+  let contentList;
+  if (pageConfig) {
+    contentList = getContentFromConfig(pageConfigName, pageConfig);
+    return (
+      <ReadyToRenderPage
+        key={pageConfigName}
+        pageLinks={mainNavLinks}
+        secondaryPageLinks={secondaryNavLinks}
+        pageContentList={contentList}
+      />
+    );
+  }
+
+  return (
+    <ReadyToRenderPage
+      key={'loading'}
+      pageLinks={mainNavLinks}
+      secondaryPageLinks={secondaryNavLinks}
+      pageContentList={[]}
+    />
+  );
+}
 
 export default MainPage;

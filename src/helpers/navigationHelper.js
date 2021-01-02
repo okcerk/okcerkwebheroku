@@ -1,0 +1,1 @@
+export const redirectToHomepage = () => document.location.replace("/");
