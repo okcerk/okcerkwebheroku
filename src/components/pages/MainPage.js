@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { mainNavLinks, secondaryNavLinks } from "../navLinks";
 import { useDispatch } from "react-redux";
 import { usePageConfig } from "../../redux/selectors";
-import PageLink from "../PageLink";
 import PageContent from "../PageContent";
-import SocialMediaLinks from "../SocialMediaLinks";
-import cloroImage from "../../images/cloro.png";
 import InfiniteScroll from "react-infinite-scroller";
 import { getContentFromConfig } from "../../helpers/contentConfigHelper";
+import Spinner from "../../components/Spinner";
 
 const style = {
   pageContent: {
@@ -59,35 +56,23 @@ const ReadyToRenderPage = (props) => {
 const MainPage = (props) => {
   const { pageConfigName } = props;
   const dispatch = useDispatch();
+  const [readyToRender, setReadyToRender] = useState(false);
 
   useEffect(() => {
     dispatch({ type: 'FETCH_PAGE_CONFIG_START', pageConfigName});
+    setTimeout(() => {
+      setReadyToRender(true);
+    }, 1000);
   }, []);
 
   const pageConfig = usePageConfig(pageConfigName);
 
-  let contentList;
-  if (pageConfig) {
-    contentList = getContentFromConfig(pageConfigName, pageConfig);
-    return (
-      <ReadyToRenderPage
-        key={pageConfigName}
-        pageLinks={mainNavLinks}
-        secondaryPageLinks={secondaryNavLinks}
-        pageContentList={contentList}
-      />
-    );
+  if (!pageConfig || !readyToRender) {
+    return (<Spinner/>);
   }
 
-  // TODO: replace with spinner
-  return (
-    <ReadyToRenderPage
-      key={'loading'}
-      pageLinks={mainNavLinks}
-      secondaryPageLinks={secondaryNavLinks}
-      pageContentList={[]}
-    />
-  );
+  const contentList = getContentFromConfig(pageConfigName, pageConfig);
+  return (<ReadyToRenderPage key={pageConfigName} pageContentList={contentList} />);
 }
 
 export default MainPage;

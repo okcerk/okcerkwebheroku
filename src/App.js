@@ -1,11 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 import MainPage from "./components/pages/MainPage";
 import { createBrowserHistory } from "history";
 import ArtworkPage from "./components/pages/ArtworkPage.js";
 import { withTitle, titleWithEnding } from "./helpers/pageTitleHelpers";
-import { mainNavLinks, secondaryNavLinks, headerLinks, secondaryHeaderLinks } from "./components/navLinks";
+import { headerLinks, secondaryHeaderLinks } from "./components/navLinks";
 import { createStore, applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux';
 import rootReducer from "./redux/reducers/rootReducer";
@@ -42,12 +42,7 @@ const getArtwork = ({ match }) => {
   const configKey = match.params.configKey.toLocaleLowerCase();
   const artKey = match.params.artKey.toLocaleLowerCase();
 
-  return <ArtworkPage
-    configKey={configKey}
-    artKey={artKey}
-    pageLinks={mainNavLinks}
-    secondaryPageLinks={secondaryNavLinks}
-  />;
+  return <ArtworkPage configKey={configKey} artKey={artKey} />;
 };
 
 const style = {

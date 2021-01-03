@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { usePageConfig } from "../../redux/selectors";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 import { withTitle, titleWithEnding } from "../../helpers/pageTitleHelpers";
 import { redirectToHomepage } from "../../helpers/navigationHelper";
+import Spinner from "../Spinner";
 
 const style = {
   pageContent: {
@@ -33,15 +34,19 @@ const style = {
 const ArtworkPage = (props) => {
   const { configKey, artKey } = props; 
   const dispatch = useDispatch();
+  const [readyToRender, setReadyToRender] = useState(false);
 
   useEffect(() => {
     dispatch({ type: 'FETCH_PAGE_CONFIG_START', pageConfigName: configKey});
+    setTimeout(() => {
+      setReadyToRender(true);
+    }, 1000);
   }, []);
 
   const pageConfig = usePageConfig(configKey);
 
-  if (!pageConfig) {
-    return null;
+  if (!pageConfig || !readyToRender) {
+    return (<Spinner/>);
   }
 
   if (pageConfig === "ERROR") {
