@@ -1,6 +1,21 @@
 {
     "key": "ink",
     "items": {
+      "dancing_with_fear": {
+        "text": "Dancing with Fear",
+        "image": "/assets/ink/dancing_with_fear",
+        "type": "SketchFrame"
+      },
+      "space_invasion": {
+        "text": "Space Invasion",
+        "image": "/assets/ink/space_invasion",
+        "type": "SketchFrame"
+      },
+      "duel_of_cubes": {
+        "text": "Duel of Cubes",
+        "image": "/assets/ink/duel_of_cubes",
+        "type": "SketchFrame"
+      },
       "rise_dragon": {
         "text": "Rise of the Dragon",
         "image": "/assets/ink/rise_dragon",

@@ -1,9 +1,21 @@
 {
     "key": "homepage",
     "items": {
-      "ska_not_dead": {
-        "text": "Ska not dead",
-        "image": "/assets/ink/ska_not_dead",
+      "dancing_with_fear": {
+        "text": "Dancing with Fear",
+        "image": "/assets/ink/dancing_with_fear",
+        "type": "SketchFrame",
+        "configKey": "ink"
+      },
+      "space_invasion": {
+        "text": "Space Invasion",
+        "image": "/assets/ink/space_invasion",
+        "type": "SketchFrame",
+        "configKey": "ink"
+      },
+      "duel_of_cubes": {
+        "text": "Duel of Cubes",
+        "image": "/assets/ink/duel_of_cubes",
         "type": "SketchFrame",
         "configKey": "ink"
       },
@@ -13,9 +25,9 @@
         "type": "SketchFrame",
         "configKey": "digital"
       },
-      "default_halloween": {
-        "text": "Default Halloween Themed Post",
-        "image": "/assets/ink/default_halloween",
+      "ska_not_dead": {
+        "text": "Ska not dead",
+        "image": "/assets/ink/ska_not_dead",
         "type": "SketchFrame",
         "configKey": "ink"
       },
