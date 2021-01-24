@@ -1,6 +1,31 @@
 {
     "key": "ink",
-    "items": {
+    "items": {      
+      "whats_for_lunch": {
+        "text": "What's for Lunch?",
+        "image": "/assets/ink/whats_for_lunch",
+        "type": "SketchFrame"
+      },
+      "literal_mind_explosion": {
+        "text": "Literal Mind Explosion",
+        "image": "/assets/ink/literal_mind_explosion",
+        "type": "SketchFrame"
+      },
+      "need_for_sleep": {
+        "text": "Need for Sleep",
+        "image": "/assets/ink/need_for_sleep",
+        "type": "SketchFrame"
+      },
+      "the_run": {
+        "text": "The Run",
+        "image": "/assets/ink/the_run",
+        "type": "SketchFrame"
+      },
+      "up_in_the_mountains": {
+        "text": "Up in the Mountains",
+        "image": "/assets/ink/up_in_the_mountains",
+        "type": "SketchFrame"
+      },
       "dancing_with_fear": {
         "text": "Dancing with Fear",
         "image": "/assets/ink/dancing_with_fear",
