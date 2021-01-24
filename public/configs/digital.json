@@ -3,295 +3,353 @@
     "items": {
       "hilloween": {
         "text": "Hilloween",
+        "altText": "Guy being haunted by big ghost behind",
         "image": "/assets/digital/hilloween",
         "type": "SketchFrame"
       },
       "unknown": {
         "text": "Unknown",
+        "altText": "Purple guy rising its finger",
         "image": "/assets/digital/unknown",
         "type": "SketchFrame"
       },
       "me-after-2020": {
-        "text": "Insomnia",
+        "text": "Me after 2020",
+        "altText": "Rotten ameba or basically me after 2020",
         "image": "/assets/digital/me_after_2020",
         "type": "SketchFrame"
       },
       "insomnia": {
         "text": "Insomnia",
+        "altText": "Blue robot looking at something shocked",
         "image": "/assets/digital/insomnia",
         "type": "SketchFrame"
       },
       "finding": {
         "text": "The Finding",
+        "altText": "Little green-ish guy looking straight at the camera",
         "image": "/assets/digital/finding",
         "type": "SketchFrame"
       },
       "energy_drink": {
         "text": "Cave of Dreams",
+        "altText": "Volcano monster throwing fire out of his mouth with some bats around",
         "image": "/assets/digital/energy_drink",
         "type": "SketchFrame"
       },
       "sunny": {
         "text": "Dark at night",
+        "altText": "Angry sun",
         "image": "/assets/digital/sunny",
         "type": "SketchFrame"
       },
       "xmas": {
         "text": "Merry Xmas!",
+        "altText": "Disgusting insect wants to eat you",
         "image": "/assets/digital/xmas",
         "type": "SketchFrame"
       },
       "smiley": {
         "text": "Super Smiley",
+        "altText": "Superhero with an emoji smiley as its face",
         "image": "/assets/digital/smiley",
         "type": "SketchFrame"
       },
       "purple": {
         "text": "The sky is the limit",
+        "altText": "Big purple monster smoking a cigar",
         "image": "/assets/digital/purple",
         "type": "SketchFrame"
       },
       "crying": {
         "text": "Missing the ocean",
+        "altText": "Cthuluh like monster crying because it's missing the ocean",
         "image": "/assets/digital/crying",
         "type": "SketchFrame"
       },
       "war": {
         "text": "War",
+        "altText": "Little yellow dude inside a massive war machine",
         "image": "/assets/digital/war",
         "type": "SketchFrame"
       },
       "bubblegum2": {
         "text": "Bubble",
+        "altText": "Big bubble gum",
         "image": "/assets/digital/bubblegum",
         "type": "SketchFrame"
       },
       "knight": {
         "text": "Stabbing soap",
+        "altText": "Knight riding a frog monster after stabbing a soap in the streets",
         "image": "/assets/digital/knight",
         "type": "SketchFrame"
       },
       "pet": {
         "text": "Feeding the enemy",
+        "altText": "Owner feeding little monster some disgusting orange food",
         "image": "/assets/digital/pet",
         "type": "SketchFrame"
       },
       "pizza-fridge": {
         "text": "Walking out of this world",
+        "altText": "Standing alien telling you There's pizza in the fridge",
         "image": "/assets/digital/alien2",
         "type": "SketchFrame"
       },
       "chazed": {
         "text": "Chazed",
+        "altText": "Cuphead like character running away from big blue monster",
         "image": "/assets/digital/chazed",
         "type": "SketchFrame"
       },
       "sweet-bunny": {
         "text": "Sweet Bunny",
+        "altText": "Little sweet doggy with a nice flower and a knife, covered in blood after some action",
         "image": "/assets/digital/sweet_bunny",
         "type": "SketchFrame"
       },
       "great-escape": {
         "text": "The great escape",
+        "altText": "Girl escaping from magician in space. There is also a spaceship nearby.",
         "image": "/assets/digital/great_escape",
         "type": "SketchFrame"
       },
       "robolution": {
         "text": "Viva la Robolution!",
+        "altText": "Big robot fighting monster in a farm",
         "image": "/assets/digital/robolution",
         "type": "SketchFrame"
       },
       "invasion": {
         "text": "Invasion",
+        "altText": "Big hairy monster with a massive yellow mouth",
         "image": "/assets/digital/amphibian",
         "type": "SketchFrame"
       },
       "where-do-we-go": {
         "text": "Where do we go from here?",
+        "altText": "Three eyed green monster dressed as a human and trying to switch TV channels with remote control",
         "image": "/assets/digital/tv",
         "type": "SketchFrame"
       },
       "conversations-with-myself": {
         "text": "Conversations with myself",
+        "altText": "Confused snake like monster",
         "image": "/assets/digital/snake",
         "type": "SketchFrame"
       },
       "disney": {
         "text": "Disney",
+        "altText": "Little blue head with thousands of multi-color tentacles coming out of it",
         "image": "/assets/digital/disney",
         "type": "SketchFrame"
       },
       "me-during-quarantine": {
         "text": "Me during quarantine",
+        "altText": "Guy drinking so much coffee it's coming out of his eyes",
         "image": "/assets/digital/coffee-overdose",
         "type": "SketchFrame"
       },
       "feuer": {
         "text": "Feuer",
+        "altText": "Fire made monster",
         "image": "/assets/digital/fire",
         "type": "SketchFrame"
       },
       "social6": { "type": "SocialMediaFrame" },
       "coronavirra": {
         "text": "Coronavirra",
+        "altText": "Corona beer is the real coronavirus",
         "image": "/assets/digital/coronavirra",
         "type": "SketchFrame"
       },
       "sweet-dreams2": {
         "text": "Sweet dreams",
+        "altText": "Voodoo doll",
         "image": "/assets/digital/creep",
         "type": "SketchFrame"
       },
       "duckanism": {
         "text": "Duckanism",
+        "altText": "Green duck shooting a red ray from his third eye",
         "image": "/assets/digital/duck",
         "type": "SketchFrame"
       },
       "pizza-time": {
         "text": "It's pizza time",
+        "altText": "Happy little devil",
         "image": "/assets/digital/little_devil",
         "type": "SketchFrame"
       },
       "dark-times": {
         "text": "Dark times",
+        "altText": "Half face of an angry green monster warrior",
         "image": "/assets/digital/alien_face",
         "type": "SketchFrame"
       },
       "cereal": {
         "text": "Me having cereal with yogurt",
+        "altText": "Purple cereal coming alive while trying to eat it and it's looking at me",
         "image": "/assets/digital/cereal",
         "type": "SketchFrame"
       },
       "king-of-nothing": {
         "text": "King of Nothing",
+        "altText": "Devil king angry at you",
         "image": "/assets/digital/king",
         "type": "SketchFrame"
       },
       "mickey": {
         "text": "Mr.Mouse - Angry Edition",
+        "altText": "Angry Mickey Mouse drooling",
         "image": "/assets/digital/mickey",
         "type": "SketchFrame"
       },
       "anarchism": {
         "text": "Anarchism",
+        "altText": "Green guy with flying monster rising his finger to society",
         "image": "/assets/digital/dude_and_fly",
         "type": "SketchFrame"
       },
       "three-eyed-monster": {
         "text": "Three Eyed Monster",
+        "altText": "Three eyed orange monster drooling",
         "image": "/assets/digital/three_eyed_monster",
         "type": "SketchFrame"
       },
       "social5": { "type": "SocialMediaFrame" },
       "big-brother": {
         "text": "Big Brother is coming for ya",
+        "altText": "Robot attacking",
         "image": "/assets/digital/big_robot",
         "type": "SketchFrame"
       },
       "dark-sponge": {
         "text": "Dark Sponge Times",
+        "altText": "Green angry sponge",
         "image": "/assets/digital/sponge",
         "type": "SketchFrame"
       },
       "riot": {
         "text": "Riot",
+        "altText": "Alien faced monster with a big spear that has fire in it",
         "image": "/assets/digital/fighter",
         "type": "SketchFrame"
       },
       "monster-project": {
         "text": "Monster Project",
+        "altText": "Devil running",
         "image": "/assets/digital/monster_project_14",
         "type": "SketchFrame"
       },
       "rock-n-roll": {
         "text": "Do you believe in Rock n' Roll?",
+        "altText": "Blue monster with big mouth about to fight",
         "image": "/assets/digital/tax_season",
         "type": "SketchFrame"
       },
       "lights-on": {
         "text": "Lights on!",
+        "altText": "Insect sitting on furniture",
         "image": "/assets/digital/bug4",
         "type": "SketchFrame"
       },
       "branderburg-gate": {
         "text": "Brandenburg Gate under attack",
+        "altText": "Berling Brandenburg Door being attacked by purple innocent monster",
         "image": "/assets/digital/berlin-monster",
         "type": "SketchFrame"
       },
       "weekend-undead": {
         "text": "Weekend of the undead",
+        "altText": "Green rat with big blue eyes",
         "image": "/assets/digital/undead",
         "type": "SketchFrame"
       },
       "angular": {
         "text": "Angular",
+        "altText": "Triangle and Square monster gang ready to shoot at Round monster",
         "image": "/assets/digital/angular",
         "type": "SketchFrame"
       },
       "whale": {
         "text": "Whale",
+        "altText": "Censored whale",
         "image": "/assets/digital/whale-collage",
         "type": "SketchFrame"
       },
       "social4": { "type": "SocialMediaFrame" },
       "scorched": {
         "text": "Scorched",
+        "altText": "Fired up green monster",
         "image": "/assets/digital/scorched",
         "type": "SketchFrame"
       },
       "poisonous": {
         "text": "Poisonous",
+        "altText": "Rat smoking next to garbage container",
         "image": "/assets/digital/poisonous",
         "type": "SketchFrame"
       },
       "chicken": {
         "text": "Chicken",
+        "altText": "Suited up chicken drinking his favorite whisky",
         "image": "/assets/digital/chicken",
         "type": "SketchFrame"
       },
       "seventh-dimension": {
         "text": "The Seventh Dimension",
+        "altText": "Colorful baloon monster",
         "image": "/assets/digital/baloon_person",
         "type": "SketchFrame"
       },
       "underwater": {
         "text": "Underwater",
+        "altText": "Underwater monster with spikes as legs",
         "image": "/assets/digital/bug2",
         "type": "SketchFrame"
       },
       "pasta-based-diet": {
         "text": "Pasta based diet",
+        "altText": "Horned red dude looking curious",
         "image": "/assets/digital/squirrel",
         "type": "SketchFrame"
       },
       "peanut-butter": {
         "text": "Peanut butter",
+        "altText": "Purple blue squirrel",
         "image": "/assets/digital/bunny",
         "type": "SketchFrame"
       },
       "end-of-summer": {
         "text": "The end of the summer",
+        "altText": "Elon Musk like person with robotic arm shooting at the sun",
         "image": "/assets/digital/dude4",
         "type": "SketchFrame"
       },
       "sleep-is-for-the-weak": {
         "text": "Sleep is for the weak",
+        "altText": "Giant snake monster with blood in its mouth",
         "image": "/assets/digital/animal",
         "type": "SketchFrame"
       },
       "portrait": {
         "text": "Portrait of my face this morning",
+        "altText": "Big orange moth",
         "image": "/assets/digital/bug",
         "type": "SketchFrame"
       },
       "social3": { "type": "SocialMediaFrame" },
       "thousand-hours": {
         "text": "A thousand hours of sleep",
+        "altText": "Just an angry guy",
         "image": "/assets/digital/dude2",
         "type": "SketchFrame"
       },
       "nightmare": {
         "text": "What some people in my alley look like",
+        "altText": "Shady monster with pink face and no mouth",
         "image": "/assets/digital/nightmare",
         "type": "SketchFrame"
       },

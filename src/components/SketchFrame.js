@@ -30,7 +30,7 @@ const style = {
 };
 
 const SketchFrame = (props) => {
-  const { text, image, itemKey, configKey, disabledLink } = props;
+  const { text, image, itemKey, configKey, disabledLink, altText } = props;
   const imagePath = `${process.env.PUBLIC_URL}${image}.jpg`;
   return (
     <div style={style.sketchFrame}>
@@ -38,7 +38,7 @@ const SketchFrame = (props) => {
         <p style={style.sketchText}>{text}</p>
         <a href={`/artwork/${configKey}/${itemKey}`} style={disabledLink ? style.disabled : {}}>
           <div style={style.link}>
-            <img style={style.image} src={imagePath} alt={text} />
+            <img style={style.image} src={imagePath} alt={altText || text} />
           </div>
         </a>
       </div>
