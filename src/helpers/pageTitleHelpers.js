@@ -8,4 +8,4 @@ export const withTitle = (component, title) => (
     </>
 );
 
-export const titleWithEnding = (title) => `${title} - Okcerk.com`;
+export const titleWithEnding = (title) => `${title} | Okcerk.com - Cartoons and comics by Andres Marc`;
