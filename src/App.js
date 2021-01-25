@@ -4,6 +4,7 @@ import ReactGA from "react-ga";
 import MainPage from "./components/pages/MainPage";
 import { createBrowserHistory } from "history";
 import ArtworkPage from "./components/pages/ArtworkPage.js";
+import LocationChangeRegister from "./components/LocationChangeRegister";
 import { withTitle, titleWithEnding } from "./helpers/pageTitleHelpers";
 import { headerLinks, secondaryHeaderLinks } from "./components/navLinks";
 import { createStore, applyMiddleware, compose } from 'redux';
@@ -25,10 +26,6 @@ sagaMiddleware.run(rootSaga);
 const trackingId = "UA-169364395-1"; // Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 const history = createBrowserHistory();
-history.listen((location) => {
-  ReactGA.set({ page: location.pathname }); // Update the user's current page
-  ReactGA.pageview(location.pathname); // Record a pageview for the given page
-});
 
 const homepage = () =>
   withTitle(<MainPage pageConfigName={'homepage'} />, "Okcerk.com - Cartoons and comics by Andres Marc");
@@ -82,6 +79,7 @@ const App = () => (
             {secondaryHeaderLinks}
             <SocialMediaLinks />
           </div>
+          <LocationChangeRegister/>
           <Route
             name="comics"
             exact
