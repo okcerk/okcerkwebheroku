@@ -1,0 +1,92 @@
+.navLink,
+.navLink:hover,
+.navLink:active,
+.navLink:visited,
+.navLink:link {
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    text-decoration: none;
+}
+
+.navBarButton {
+    font-size: 40px;
+    font-family: monospace;
+    margin-right: 30px;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    float: right;
+}
+
+.pageTitle {
+    font-size: 40px;
+    font-family: monospace;
+    margin-left: 30px;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    float: left;
+}
+
+/* Class */
+.navBar {
+    width: 100%;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    min-height: 70px;
+}
+
+.navLinks {
+  height: 0;
+  overflow: hidden;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.showNav {
+    height: auto;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cloro {
+    height: 50px;
+    display: none;
+}
+
+/* Media screen size */
+@media screen and (min-width: 768px) {
+    .pageTitle {
+        display:none;
+    }
+    
+    .navBarButton {
+        display: none;
+    }
+
+    .navLinks {
+        height: auto;
+        display: flex;
+    }
+
+    .cloro {
+        display: unset;
+    }
+
+    .navLink,
+    .navLink:hover,
+    .navLink:active,
+    .navLink:visited,
+    .navLink:link {
+        padding: 0 15px;
+        text-decoration: none;
+    }
+}

@@ -5,6 +5,7 @@ import MainPage from "./components/pages/MainPage";
 import { createBrowserHistory } from "history";
 import ArtworkPage from "./components/pages/ArtworkPage.js";
 import LocationChangeRegister from "./components/LocationChangeRegister";
+import NavBar from "./components/NavBar/NavBar";
 import { withTitle, titleWithEnding } from "./helpers/pageTitleHelpers";
 import { headerLinks, secondaryHeaderLinks } from "./components/navLinks";
 import { createStore, applyMiddleware, compose } from 'redux';
@@ -13,8 +14,6 @@ import rootReducer from "./redux/reducers/rootReducer";
 import { rootSaga } from "./redux/sagas";
 import createSagaMiddleware from 'redux-saga';
 import { redirectToHomepage } from "./helpers/navigationHelper";
-import cloroImage from "./images/cloro.png";
-import SocialMediaLinks from "./components/SocialMediaLinks";
 
 // Initialize Redux store
 const sagaMiddleware = createSagaMiddleware();
@@ -60,25 +59,13 @@ const style = {
   pageLink: {
     cursor: "pointer",
   },
-  cloro: {
-    marginTop: 20,
-  },
 };
 
 const App = () => (
   <Provider store={store}>
-      <Router history={history}>
+      <Router history={history}>        
+        <NavBar/>
         <div style={style.coreSection}>
-          <div style={style.pageLinks}>
-            {headerLinks}
-            <div style={style.cloro}>
-              <img src={cloroImage} alt="cloro" />
-            </div>
-          </div>
-          <div style={style.pageLinks}>
-            {secondaryHeaderLinks}
-            <SocialMediaLinks />
-          </div>
           <LocationChangeRegister/>
           <Route
             name="comics"
