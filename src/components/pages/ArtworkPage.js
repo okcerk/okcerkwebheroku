@@ -66,7 +66,7 @@ const ArtworkPage = (props) => {
 
   return withTitle(
     <div style={style.pageContent}>
-      <div style={style.title}>{text}</div>
+      <h1 style={style.title}>{text}</h1>
       <img style={style.image} src={imageHdPath} alt={artworkConfig.altText || text} />
       <div style={style.twitterFrame}>
         <TwitterTimelineEmbed

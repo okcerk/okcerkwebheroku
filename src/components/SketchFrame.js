@@ -35,7 +35,7 @@ const SketchFrame = (props) => {
   return (
     <div style={style.sketchFrame}>
       <div>
-        <p style={style.sketchText}>{text}</p>
+        <h2 style={style.sketchText}>{text}</h2>
         <a href={`/artwork/${configKey}/${itemKey}`} style={disabledLink ? style.disabled : {}}>
           <div style={style.link}>
             <img style={style.image} src={imagePath} alt={altText || text} />
