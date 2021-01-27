@@ -1,3 +1,8 @@
+.mainWrapper {
+    font-size: 40px;
+    font-family: monospace;
+}
+
 .navLink,
 .navLink:hover,
 .navLink:active,
@@ -23,18 +28,6 @@
     float: right;
 }
 
-.pageTitle {
-    font-size: 40px;
-    font-family: monospace;
-    margin-left: 30px;
-    color: white;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    float: left;
-}
-
 /* Class */
 .navBar {
     width: 100%;
@@ -51,6 +44,8 @@
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .showNav {
@@ -74,12 +69,30 @@
     display: flex;
 }
 
+.pageTitle {
+    display: unset;
+    font-size: 40px;
+    font-family: monospace;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    float: left;
+}
+
+.hide {
+    display: none;
+}
+
 /* Media screen size */
 @media screen and (min-width: 768px) {
     .pageTitle {
         display:none;
     }
-    
+
     .navBarButton {
         display: none;
     }
@@ -99,7 +112,7 @@
     .navLink:active,
     .navLink:visited,
     .navLink:link {
-        padding: 0 15px;
+        padding: 10px 15px;
         text-decoration: none;
         white-space: nowrap;
     }

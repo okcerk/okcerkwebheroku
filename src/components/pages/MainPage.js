@@ -8,8 +8,6 @@ import Spinner from "../../components/Spinner";
 
 const style = {
   pageContent: {
-    display: "flex",
-    flexWrap: "wrap",
     justifyContent: "center",
   },
 };
@@ -44,10 +42,10 @@ const ReadyToRenderPage = (props) => {
 
   return (
     <InfiniteScroll
-        pageStart={0}
-        loadMore={loadItems}
-        hasMore={hasMoreItems}
-      >
+      pageStart={0}
+      loadMore={loadItems}
+      hasMore={hasMoreItems}
+    >
       <div style={style.pageContent}>{pageContentItems}</div>
     </InfiniteScroll>
   );

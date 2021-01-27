@@ -64,7 +64,7 @@ const style = {
 const App = () => (
   <Provider store={store}>
       <Router history={history}>        
-        <NavBar/>
+        <NavBar title={"Okcerk comics"}/>
         <div style={style.coreSection}>
           <LocationChangeRegister/>
           <Route
