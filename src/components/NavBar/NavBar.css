@@ -8,6 +8,7 @@
     font-family: monospace;
     color: white;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .navBarButton {
@@ -48,6 +49,8 @@
   overflow: hidden;
   list-style-type: none;
   font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .showNav {
@@ -57,9 +60,18 @@
     flex-direction: column;
 }
 
+.cloroWrapper {
+    display: none;    
+}
+
 .cloro {
-    height: 50px;
-    display: none;
+    height: 50px;    
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.wrapper {
+    display: flex;
 }
 
 /* Media screen size */
@@ -77,8 +89,9 @@
         display: flex;
     }
 
-    .cloro {
-        display: unset;
+    .cloroWrapper {
+        display: flex;
+        flex-direction: row;
     }
 
     .navLink,
@@ -88,5 +101,6 @@
     .navLink:link {
         padding: 0 15px;
         text-decoration: none;
+        white-space: nowrap;
     }
 }

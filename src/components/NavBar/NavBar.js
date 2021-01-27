@@ -14,17 +14,21 @@ const NavBar = (props) => {
       <button className="navBarButton" onClick={() => setToggle(!toggle)}>
           <FiAlignJustify />
       </button>
-      <ul className={toggle ? "navLinks showNav" : "navLinks"}>
-          <img className="cloro" src={cloroImage} alt="cloro" />
-          <Link className="navLink" to="/">Home</Link>
-          <Link className="navLink" to="/digital">Digital</Link>
-          <Link className="navLink" to="/comics">Comics</Link>
-          <Link className="navLink" to="/ink">Ink</Link>
-          <Link className="navLink" to="/escuadron37">Escuadron 37</Link>
-          <a className="navLink" href="https://www.okcerk2.blogspot.com/" target="_blank">Blog</a>
-          <Link className="navLink" to="/about">About</Link>
-          <SocialMediaLinks />
-      </ul>
+      <div className="wrapper">
+        <div className="cloroWrapper"><img className="cloro" src={cloroImage} alt="cloro" /></div>
+        <ul className={toggle ? "navLinks showNav" : "navLinks"}>          
+            <Link className="navLink" to="/">Home</Link>
+            <Link className="navLink" to="/digital">Digital</Link>
+            <Link className="navLink" to="/comics">Comics</Link>
+            <Link className="navLink" to="/ink">Ink</Link>
+            <Link className="navLink" to="/escuadron37">Escuadron 37</Link>
+            <a className="navLink" href="https://okcerk2.blogspot.com/" target="_blank">Blog</a>
+            <Link className="navLink" to="/about">About</Link>
+            <div style={{ whiteSpace: "nowrap"}}>
+              <SocialMediaLinks />
+            </div>
+        </ul>
+      </div>
     </div>
   );
 };
