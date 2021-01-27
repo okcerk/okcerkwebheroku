@@ -56,7 +56,6 @@
         "image": "/assets/inktober2018/11",
         "type": "SketchFrame"
       },
-      "social2": { "type": "SocialMediaFrame" },
       "inktober2018-12": {
         "text": "12: Whale",
         "image": "/assets/inktober2018/12",
@@ -107,7 +106,6 @@
         "image": "/assets/inktober2018/21",
         "type": "SketchFrame"
       },
-      "social": { "type": "SocialMediaFrame" },
       "inktober2018-22": {
         "text": "22: Expensive",
         "image": "/assets/inktober2018/22",

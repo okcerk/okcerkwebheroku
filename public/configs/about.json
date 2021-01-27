@@ -8,7 +8,6 @@
         "type": "TextFrame"
       },
       "myself-photo": { "text": "", "image": "/assets/myself", "type": "SketchFrame", "disabledLink": true },
-      "twitter-feed": { "type": "TwitterFeedFrame" },
-      "social": { "type": "SocialMediaFrame" }
+      "twitter-feed": { "type": "TwitterFeedFrame" }
     }
 }

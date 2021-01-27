@@ -157,7 +157,6 @@
         "image": "/assets/digital/fire",
         "type": "SketchFrame"
       },
-      "social6": { "type": "SocialMediaFrame" },
       "coronavirra": {
         "text": "Coronavirra",
         "altText": "Corona beer is the real coronavirus",
@@ -218,7 +217,6 @@
         "image": "/assets/digital/three_eyed_monster",
         "type": "SketchFrame"
       },
-      "social5": { "type": "SocialMediaFrame" },
       "big-brother": {
         "text": "Big Brother is coming for ya",
         "altText": "Robot attacking",
@@ -279,7 +277,6 @@
         "image": "/assets/digital/whale-collage",
         "type": "SketchFrame"
       },
-      "social4": { "type": "SocialMediaFrame" },
       "scorched": {
         "text": "Scorched",
         "altText": "Fired up green monster",
@@ -340,7 +337,6 @@
         "image": "/assets/digital/bug",
         "type": "SketchFrame"
       },
-      "social3": { "type": "SocialMediaFrame" },
       "thousand-hours": {
         "text": "A thousand hours of sleep",
         "altText": "Just an angry guy",
@@ -393,7 +389,6 @@
         "image": "/assets/digital/alien",
         "type": "SketchFrame"
       },
-      "social2": { "type": "SocialMediaFrame" },
       "rainbows": {
         "text": "Rainbows",
         "image": "/assets/digital/fish",
@@ -433,7 +428,6 @@
         "text": "Cloro",
         "image": "/assets/digital/cloro1",
         "type": "SketchFrame"
-      },
-      "social": { "type": "SocialMediaFrame" }
+      }
     }
   }

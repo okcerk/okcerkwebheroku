@@ -7,7 +7,6 @@ import ArtworkPage from "./components/pages/ArtworkPage.js";
 import LocationChangeRegister from "./components/LocationChangeRegister";
 import NavBar from "./components/NavBar/NavBar";
 import { withTitle, titleWithEnding } from "./helpers/pageTitleHelpers";
-import { headerLinks, secondaryHeaderLinks } from "./components/navLinks";
 import { createStore, applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux';
 import rootReducer from "./redux/reducers/rootReducer";

@@ -56,7 +56,6 @@
         "image": "/assets/inktober2019/11",
         "type": "SketchFrame"
       },
-      "social2": { "type": "SocialMediaFrame" },
       "inktober2019-12": {
         "text": "12: Dragon",
         "image": "/assets/inktober2019/12",
@@ -107,7 +106,6 @@
         "image": "/assets/inktober2019/21",
         "type": "SketchFrame"
       },
-      "social": { "type": "SocialMediaFrame" },
       "inktober2019-22": {
         "text": "22: Ghost",
         "image": "/assets/inktober2019/22",

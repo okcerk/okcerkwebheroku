@@ -55,7 +55,6 @@
         "text": "Orange juice",
         "image": "/assets/comics/communism",
         "type": "SketchFrame"
-      },
-      "social": { "type": "SocialMediaFrame" }
+      }
     }
   }
