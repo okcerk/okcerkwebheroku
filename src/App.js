@@ -15,6 +15,27 @@ import { rootSaga } from "./redux/sagas";
 import createSagaMiddleware from 'redux-saga';
 import { redirectToHomepage } from "./helpers/navigationHelper";
 
+const style = {
+  coreSection: {
+    paddingTop: 82,
+    textAlign: "-webkit-center",  
+  },
+  pageLinks: {
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  },
+  pageContent: {
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  },
+  pageLink: {
+    cursor: "pointer",
+  },
+};
+
 // Initialize Redux store
 const sagaMiddleware = createSagaMiddleware();
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
@@ -39,26 +60,6 @@ const getArtwork = ({ match }) => {
   const artKey = match.params.artKey.toLocaleLowerCase();
 
   return <ArtworkPage configKey={configKey} artKey={artKey} />;
-};
-
-const style = {
-  coreSection: {
-    textAlign: "-webkit-center",
-  },
-  pageLinks: {
-    display: "flex",
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "center",
-  },
-  pageContent: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
-  },
-  pageLink: {
-    cursor: "pointer",
-  },
 };
 
 const App = () => (
