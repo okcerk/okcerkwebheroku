@@ -5,7 +5,6 @@ import InstagramLogo from "../images/socialmedia/instagram.png";
 const style = {
   socialMediaLinks: {
     alignSelf: "center",
-    marginLeft: 10,
   },
   socialMediaImage: {
     marginLeft: 10,

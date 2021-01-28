@@ -64,7 +64,7 @@ const getArtwork = ({ match }) => {
 const App = () => (
   <Provider store={store}>
       <Router history={history}>        
-        <NavBar title={"Okcerk comics"}/>
+        <NavBar title={"Okcerk.com"}/>
         <div style={style.coreSection}>
           <LocationChangeRegister/>
           <Route
