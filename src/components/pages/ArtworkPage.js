@@ -12,7 +12,7 @@ const style = {
   },
   title: {
     fontSize: 30,
-    fontFamily: "monospace",
+    fontFamily: "-webkit-pictograph",
     fontWeight: "bold",
     color: "white",
   },

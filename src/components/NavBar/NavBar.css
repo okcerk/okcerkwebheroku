@@ -1,6 +1,6 @@
 .mainWrapper {
     font-size: 40px;
-    font-family: monospace;
+    font-family: "-webkit-pictograph";
     position: fixed;
     width: 100%;
 }
@@ -12,7 +12,6 @@
 .navLink:link {
     padding: 10px 0;
     font-size: 20px;
-    font-family: monospace;
     color: white;
     text-decoration: none;
     white-space: nowrap;
@@ -20,7 +19,6 @@
 
 .navBarButton {
     font-size: 40px;
-    font-family: monospace;
     margin-right: 30px;
     color: white;
     background: transparent;
@@ -74,7 +72,7 @@
 .pageTitle {
     display: unset;
     font-size: 40px;
-    font-family: monospace;
+    font-family: "-webkit-pictograph";
     margin-left: 15px;
     margin-top: 15px;
     color: white;

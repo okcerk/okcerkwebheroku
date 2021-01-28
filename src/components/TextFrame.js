@@ -7,7 +7,7 @@ const style = {
   },
   text: {
     color: "white",
-    fontFamily: "monospace",
+    fontFamily: "-webkit-pictograph",
     fontSize: 20,
   },
 };

@@ -5,7 +5,7 @@ const style = {
     minWidth: 600,
   },
   description: {
-    fontFamily: "monospace",
+    fontFamily: "-webkit-pictograph",
     fontWeight: "bold",
     margin: 10,
     width: 500,

@@ -9,7 +9,7 @@ const style = {
     minWidth: 600,
   },
   sketchText: {
-    fontFamily: "monospace",
+    fontFamily: "-webkit-pictograph",
     fontSize: 25,
     fontWeight: "bold",
     marginTop: 0,
