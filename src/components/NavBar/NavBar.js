@@ -29,7 +29,7 @@ const NavBar = (props) => {
               <Link className="navLink" to="/escuadron37" onClick={onLinkClick}>Escuadron 37</Link>
               <a className="navLink" href="https://okcerk2.blogspot.com/" target="_blank">Blog</a>
               <Link className="navLink" to="/about" onClick={onLinkClick}>About</Link>
-              <div style={{ whiteSpace: "nowrap"}}>
+              <div className="socialMediaWrapper">
                 <SocialMediaLinks />
               </div>
           </ul>

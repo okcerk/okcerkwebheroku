@@ -69,6 +69,10 @@
     display: flex;
 }
 
+.socialMediaWrapper {
+    white-space: nowrap;
+}
+
 .pageTitle {
     display: unset;
     font-size: 40px;
