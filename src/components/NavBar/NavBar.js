@@ -19,6 +19,9 @@ const NavBar = (props) => {
         <button className="navBarButton" onClick={() => setToggle(!toggle)}>
             <FiAlignJustify />
         </button>
+        <div className="socialMediaWrapper">
+          <SocialMediaLinks />
+        </div>
         <div className="wrapper">
           <div className="cloroWrapper"><img className="cloro" src={cloroImage} alt="cloro" /></div>
           <ul className={toggle ? "navLinks showNav" : "navLinks"}>          
@@ -28,11 +31,8 @@ const NavBar = (props) => {
               <Link className="navLink" to="/ink" onClick={onLinkClick}>Ink</Link>
               <Link className="navLink" to="/escuadron37" onClick={onLinkClick}>Escuadron 37</Link>
               <a className="navLink" href="https://okcerk2.blogspot.com/" target="_blank">Blog</a>
-              <Link className="navLink" to="/about" onClick={onLinkClick}>About</Link>
-              <div className="socialMediaWrapper">
-                <SocialMediaLinks />
-              </div>
-          </ul>
+              <Link className="navLink" to="/about" onClick={onLinkClick}>About</Link>              
+          </ul>          
         </div>
       </div>
     </div>

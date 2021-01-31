@@ -71,6 +71,7 @@
 
 .socialMediaWrapper {
     white-space: nowrap;
+    float: right;
 }
 
 .pageTitle {

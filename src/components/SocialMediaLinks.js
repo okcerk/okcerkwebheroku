@@ -3,9 +3,6 @@ import TwitterLogo from "../images/socialmedia/twitter.png";
 import InstagramLogo from "../images/socialmedia/instagram.png";
 
 const style = {
-  socialMediaLinks: {
-    alignSelf: "center",
-  },
   socialMediaImage: {
     marginLeft: 10,
     marginRight: 10,
@@ -13,14 +10,14 @@ const style = {
 };
 
 const SocialMediaLinks = () => (
-  <div style={style.socialMediaLinks}>
+  <>
     <a href="https://www.twitter.com/krecko4000" target="_blank">
       <img style={style.socialMediaImage} src={TwitterLogo} />
     </a>
     <a href="https://www.instagram.com/okcerk" target="_blank">
       <img style={style.socialMediaImage} src={InstagramLogo} />
     </a>
-  </div>
+  </>
 );
 
 export default SocialMediaLinks;
