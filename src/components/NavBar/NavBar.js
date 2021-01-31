@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FiAlignJustify } from 'react-icons/fi';
 import SocialMediaLinks from "../SocialMediaLinks";
 import { Link } from "react-router-dom";
@@ -7,6 +7,16 @@ import cloroImage from "../../images/cloro.png";
 
 const NavBar = (props) => {
   const [toggle, setToggle] = useState(false);
+
+  useEffect(() => {
+    const resizeListener = () => {
+      setToggle(false);
+    };
+    window.addEventListener('resize', resizeListener);
+    return () => {
+      window.removeEventListener('resize', resizeListener);
+    }
+  }, [])
 
   const onLinkClick = () => {
     setToggle(false);
