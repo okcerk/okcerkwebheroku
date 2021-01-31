@@ -6,6 +6,7 @@ import { createBrowserHistory } from "history";
 import ArtworkPage from "./components/pages/ArtworkPage.js";
 import LocationChangeRegister from "./components/LocationChangeRegister";
 import NavBar from "./components/NavBar/NavBar";
+import ScrollToTop from "./components/ScrollToTop";
 import { withTitle, titleWithEnding } from "./helpers/pageTitleHelpers";
 import { createStore, applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux';
@@ -63,78 +64,82 @@ const getArtwork = ({ match }) => {
 
 const App = () => (
   <Provider store={store}>
-      <Router history={history}>        
-        <NavBar title={"Okcerk.com"}/>
-        <div style={style.coreSection}>
-          <LocationChangeRegister/>
-          <Route
-            name="comics"
-            exact
-            path="/comics"
-          >{withTitle(<MainPage pageConfigName={'comics'} />, titleWithEnding("Comics"))}</Route>
-          <Route
-            name="digital"
-            exact
-            path="/digital"
-            render={() =>
-              withTitle(<MainPage pageConfigName={'digital'} />, titleWithEnding("Digital artwork"))
-            }
-          />
-          <Route
-            name="ink"
-            exact
-            path="/ink"
-            render={() => withTitle(<MainPage pageConfigName={'ink'} />, titleWithEnding("Ink artwork"))}
-          />
-          <Route
-            name="escuadron37"
-            exact
-            path="/escuadron37"
-            render={() =>
-              withTitle(
-                <MainPage pageConfigName={'escuadron37'} />,
-                titleWithEnding("Escuadron 37 - Animation")
-              )
-            }
-          />
-          <Route
-            name="inktober"
-            exact
-            path="/inktober"
-            render={() => withTitle(<MainPage pageConfigName={'inktober'} />, titleWithEnding("Inktober"))}
-          />
-          <Route
-            name="inktober2018"
-            exact
-            path="/inktober2018"
-            render={() =>
-              withTitle(<MainPage pageConfigName={'inktober2018'} />, titleWithEnding("Inktober 2018"))
-            }
-          />
-          <Route
-            name="inktober2019"
-            exact
-            path="/inktober2019"
-            render={() =>
-              withTitle(<MainPage pageConfigName={'inktober2019'} />, titleWithEnding("Inktober 2019"))
-            }
-          />
-          <Route
-            name="about"
-            exact
-            path="/about"
-            render={() =>
-              withTitle(<MainPage pageConfigName={'about'} />, titleWithEnding("About Andres Marc"))
-            }
-          />
-          <Route
-            name="artwork"
-            exact
-            path="/artwork/:configKey/:artKey"
-            render={getArtwork}
-          />
-          <Route name="home" exact path="/" render={homepage} />
-        </div>
+      <Router history={history}>
+        <ScrollToTop>
+          <div>
+            <NavBar title={"Okcerk.com"}/>
+            <div style={style.coreSection}>
+              <LocationChangeRegister/>
+              <Route
+                name="comics"
+                exact
+                path="/comics"
+              >{withTitle(<MainPage pageConfigName={'comics'} />, titleWithEnding("Comics"))}</Route>
+              <Route
+                name="digital"
+                exact
+                path="/digital"
+                render={() =>
+                  withTitle(<MainPage pageConfigName={'digital'} />, titleWithEnding("Digital artwork"))
+                }
+              />
+              <Route
+                name="ink"
+                exact
+                path="/ink"
+                render={() => withTitle(<MainPage pageConfigName={'ink'} />, titleWithEnding("Ink artwork"))}
+              />
+              <Route
+                name="escuadron37"
+                exact
+                path="/escuadron37"
+                render={() =>
+                  withTitle(
+                    <MainPage pageConfigName={'escuadron37'} />,
+                    titleWithEnding("Escuadron 37 - Animation")
+                  )
+                }
+              />
+              <Route
+                name="inktober"
+                exact
+                path="/inktober"
+                render={() => withTitle(<MainPage pageConfigName={'inktober'} />, titleWithEnding("Inktober"))}
+              />
+              <Route
+                name="inktober2018"
+                exact
+                path="/inktober2018"
+                render={() =>
+                  withTitle(<MainPage pageConfigName={'inktober2018'} />, titleWithEnding("Inktober 2018"))
+                }
+              />
+              <Route
+                name="inktober2019"
+                exact
+                path="/inktober2019"
+                render={() =>
+                  withTitle(<MainPage pageConfigName={'inktober2019'} />, titleWithEnding("Inktober 2019"))
+                }
+              />
+              <Route
+                name="about"
+                exact
+                path="/about"
+                render={() =>
+                  withTitle(<MainPage pageConfigName={'about'} />, titleWithEnding("About Andres Marc"))
+                }
+              />
+              <Route
+                name="artwork"
+                exact
+                path="/artwork/:configKey/:artKey"
+                render={getArtwork}
+              />
+              <Route name="home" exact path="/" render={homepage} />
+            </div>
+          </div>
+        </ScrollToTop>
       </Router>
   </Provider>
 );
