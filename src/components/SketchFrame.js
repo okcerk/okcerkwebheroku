@@ -9,7 +9,7 @@ const style = {
     minWidth: 600,
   },
   sketchText: {
-    fontFamily: "-webkit-pictograph",
+    fontFamily: "'Open Sans', sans-serif",
     fontSize: 25,
     fontWeight: "bold",
     marginTop: 0,

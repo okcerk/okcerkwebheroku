@@ -12,7 +12,7 @@ const style = {
   },
   title: {
     fontSize: 30,
-    fontFamily: "-webkit-pictograph",
+    fontFamily: "'Open Sans', sans-serif",
     fontWeight: "bold",
     color: "white",
   },

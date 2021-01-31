@@ -1,7 +1,7 @@
 /* Class */
 .navBar {
     font-size: 40px;
-    font-family: "-webkit-pictograph";
+    font-family: 'Julius Sans One', sans-serif;
     position: fixed;
     width: 100%;
     background-color: #1F2833;
@@ -74,7 +74,7 @@
 .pageTitle {
     display: unset;
     font-size: 40px;
-    font-family: "-webkit-pictograph";
+    font-family: 'Julius Sans One', sans-serif;
     margin-left: 15px;
     margin-top: 15px;
     color: white;
