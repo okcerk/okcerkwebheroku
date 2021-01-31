@@ -1,6 +1,12 @@
 {
     "key": "homepage",
     "items": {
+      "robo-croco": {
+        "text": "The Last Robo-Croco",
+        "image": "/assets/ink/robo-croco",
+        "type": "SketchFrame",
+        "configKey": "ink"
+      },
       "dancing_with_fear": {
         "text": "Dancing with Fear",
         "image": "/assets/ink/dancing_with_fear",

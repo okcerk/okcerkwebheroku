@@ -1,6 +1,21 @@
 {
     "key": "ink",
-    "items": {      
+    "items": {
+      "on_my_way_to_earth": {
+        "text": "On my way to Earth",
+        "image": "/assets/ink/on_my_way_to_earth",
+        "type": "SketchFrame"
+      },
+      "got_fire": {
+        "text": "Got Fire?",
+        "image": "/assets/ink/got_fire",
+        "type": "SketchFrame"
+      },
+      "robo-croco": {
+        "text": "The Last Robo-Croco",
+        "image": "/assets/ink/robo-croco",
+        "type": "SketchFrame"
+      },
       "whats_for_lunch": {
         "text": "What's for Lunch?",
         "image": "/assets/ink/whats_for_lunch",
