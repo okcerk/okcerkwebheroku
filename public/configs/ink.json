@@ -200,6 +200,111 @@
         "text": "Wo ist mein Wochenende?",
         "image": "/assets/ink/wochenende",
         "type": "SketchFrame"
+      },
+      "angular": {
+        "text": "Angular",
+        "image": "/assets/ink/angular",
+        "type": "SketchFrame"
+      },
+      "ash": {
+        "text": "Ash",
+        "image": "/assets/ink/ash",
+        "type": "SketchFrame"
+      },
+      "breakable": {
+        "text": "Breakable",
+        "image": "/assets/ink/breakable",
+        "type": "SketchFrame"
+      },
+      "chicken": {
+        "text": "Chicken",
+        "image": "/assets/ink/chicken",
+        "type": "SketchFrame"
+      },
+      "chop": {
+        "text": "Chop",
+        "image": "/assets/ink/chop",
+        "type": "SketchFrame"
+      },
+      "dragon": {
+        "text": "Dragon",
+        "image": "/assets/ink/dragon",
+        "type": "SketchFrame"
+      },
+      "drain": {
+        "text": "Drain",
+        "image": "/assets/ink/drain",
+        "type": "SketchFrame"
+      },
+      "drooling": {
+        "text": "Drooling",
+        "image": "/assets/ink/drooling",
+        "type": "SketchFrame"
+      },
+      "exhausted": {
+        "text": "Exhausted",
+        "image": "/assets/ink/exhausted",
+        "type": "SketchFrame"
+      },
+      "expensive": {
+        "text": "Expensive",
+        "image": "/assets/ink/expensive",
+        "type": "SketchFrame"
+      },
+      "ghost": {
+        "text": "Ghost",
+        "image": "/assets/ink/ghost",
+        "type": "SketchFrame"
+      },
+      "jolt": {
+        "text": "Jolt",
+        "image": "/assets/ink/jolt",
+        "type": "SketchFrame"
+      },
+      "misfit": {
+        "text": "Misfit",
+        "image": "/assets/ink/misfit",
+        "type": "SketchFrame"
+      },
+      "muddy": {
+        "text": "Muddy",
+        "image": "/assets/ink/muddy",
+        "type": "SketchFrame"
+      },
+      "poisonous": {
+        "text": "Poisonous",
+        "image": "/assets/ink/poisonous",
+        "type": "SketchFrame"
+      },
+      "ride": {
+        "text": "Ride",
+        "image": "/assets/ink/ride",
+        "type": "SketchFrame"
+      },
+      "ring": {
+        "text": "Ring",
+        "image": "/assets/ink/ring",
+        "type": "SketchFrame"
+      },
+      "scorched": {
+        "text": "Scorched",
+        "image": "/assets/ink/scorched",
+        "type": "SketchFrame"
+      },
+      "slice": {
+        "text": "Slice",
+        "image": "/assets/ink/slice",
+        "type": "SketchFrame"
+      },
+      "tasty": {
+        "text": "Tasty",
+        "image": "/assets/ink/tasty",
+        "type": "SketchFrame"
+      },
+      "whale": {
+        "text": "Whale",
+        "image": "/assets/ink/whale",
+        "type": "SketchFrame"
       }
     }
   }

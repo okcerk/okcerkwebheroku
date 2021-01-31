@@ -101,28 +101,6 @@ const App = () => (
                 }
               />
               <Route
-                name="inktober"
-                exact
-                path="/inktober"
-                render={() => withTitle(<MainPage pageConfigName={'inktober'} />, titleWithEnding("Inktober"))}
-              />
-              <Route
-                name="inktober2018"
-                exact
-                path="/inktober2018"
-                render={() =>
-                  withTitle(<MainPage pageConfigName={'inktober2018'} />, titleWithEnding("Inktober 2018"))
-                }
-              />
-              <Route
-                name="inktober2019"
-                exact
-                path="/inktober2019"
-                render={() =>
-                  withTitle(<MainPage pageConfigName={'inktober2019'} />, titleWithEnding("Inktober 2019"))
-                }
-              />
-              <Route
                 name="about"
                 exact
                 path="/about"

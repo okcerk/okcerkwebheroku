@@ -16,7 +16,7 @@ const NavBar = (props) => {
     return () => {
       window.removeEventListener('resize', resizeListener);
     }
-  }, [])
+  }, []);
 
   const onLinkClick = () => {
     setToggle(false);
