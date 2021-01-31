@@ -1,8 +1,13 @@
-.mainWrapper {
+/* Class */
+.navBar {
     font-size: 40px;
     font-family: "-webkit-pictograph";
     position: fixed;
     width: 100%;
+    background-color: #1F2833;
+    color: white;
+    padding: 10px;
+    min-height: 70px;
 }
 
 .navLink,
@@ -26,15 +31,7 @@
     cursor: pointer;
     outline: none;
     float: right;
-}
-
-/* Class */
-.navBar {
-    width: 100%;
-    background-color: #1F2833;
-    color: white;
-    padding: 10px;
-    min-height: 70px;
+    height: 70px;
 }
 
 .navLinks {
