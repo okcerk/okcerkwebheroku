@@ -15,7 +15,7 @@ const TwitterFeedFrame = () => (
   <div style={style.twitterFrame}>
     <TwitterTimelineEmbed
       sourceType="profile"
-      screenName="krecko4000"
+      screenName="okcerk"
       options={style.twitterOptions}
       theme="dark"
     />

@@ -11,7 +11,7 @@ const style = {
 
 const SocialMediaLinks = () => (
   <>
-    <a href="https://www.twitter.com/krecko4000" target="_blank">
+    <a href="https://www.twitter.com/okcerk" target="_blank">
       <img style={style.socialMediaImage} src={TwitterLogo} />
     </a>
     <a href="https://www.instagram.com/okcerk" target="_blank">
