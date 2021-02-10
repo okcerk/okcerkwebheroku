@@ -1,0 +1,18 @@
+{
+    "key": "book",
+    "items": {
+      "about-book": {
+        "header": "Everything I know about life & more: A coloring book",
+        "text":
+          "After a whole life drawing non-sense doodles, Andres Marc (aka Okcerk) has decided to publish this magnificent coloring book just for your personal enjoyment. We got you a compilation of 30 of his best (and worst) inky artworks from the last four years, all based on real life experiences! From whisky drinking animals to horribly disgusting monsters, this book has everything nobody has ever dreamed of and more!",
+        "type": "TextFrame"
+      },
+      "book-cover": { "text": "", "image": "/assets/book-cover", "type": "SketchFrame", "externalLink": "https://www.amazon.com/dp/B08W7KSN27" },
+      "footer": {
+        "header": "Get our coloring book today and go on some bizzare adventures!",
+        "text":
+          "Do not miss our first published book - Currently available through most Amazon marketplaces!",
+        "type": "TextFrame"
+      }
+    }
+}

@@ -22,6 +22,10 @@
     white-space: nowrap;
 }
 
+.redLink {
+    color: red !important;
+}
+
 .navBarButton {
     font-size: 40px;
     margin-right: 30px;

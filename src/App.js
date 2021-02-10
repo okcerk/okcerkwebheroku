@@ -109,6 +109,14 @@ const App = () => (
                 }
               />
               <Route
+                name="book"
+                exact
+                path="/book"
+                render={() =>
+                  withTitle(<MainPage pageConfigName={'book'} />, titleWithEnding("Everything I know about life & more: A coloring book"))
+                }
+              />
+              <Route
                 name="artwork"
                 exact
                 path="/artwork/:configKey/:artKey"

@@ -40,6 +40,7 @@ const NavBar = (props) => {
             <Link className="navLink" to="/ink" onClick={onLinkClick}>Ink</Link>
             <Link className="navLink" to="/escuadron37" onClick={onLinkClick}>Escuadron 37</Link>
             <a className="navLink" href="https://okcerk2.blogspot.com/" target="_blank">Blog</a>
+            <Link className="navLink redLink" to="/book" onClick={onLinkClick}>Book</Link>
             <Link className="navLink" to="/about" onClick={onLinkClick}>About</Link>              
         </ul>          
       </div>
