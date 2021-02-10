@@ -11,7 +11,11 @@
       "footer": {
         "header": "Get our coloring book today and go on some bizzare adventures!",
         "text":
-          "Do not miss our first published book - Currently available through most Amazon marketplaces!",
+          "Currently available through most Amazon marketplaces!",
+        "type": "TextFrame"
+      },
+      "footer2": {
+        "header": "Artworks by Andres Marc, designed by Ines Marconato",
         "type": "TextFrame"
       }
     }
