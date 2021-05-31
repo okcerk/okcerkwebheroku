@@ -1,6 +1,12 @@
 {
     "key": "digital",
     "items": {
+      "trapped": {
+        "text": "Trapped",
+        "altText": "Trapped dude",
+        "image": "/assets/digital/trapped",
+        "type": "SketchFrame"
+      },
       "hilloween": {
         "text": "Hilloween",
         "altText": "Guy being haunted by big ghost behind",

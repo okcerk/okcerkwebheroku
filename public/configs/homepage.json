@@ -1,6 +1,25 @@
 {
     "key": "homepage",
     "items": {
+      "trapped": {
+        "text": "Trapped",
+        "altText": "Trapped dude",
+        "image": "/assets/digital/trapped",
+        "type": "SketchFrame",
+        "configKey": "digital"
+      },
+      "running_microwave": {
+        "text": "How to survive inside a running microwave",
+        "image": "/assets/ink/running_microwave",
+        "type": "SketchFrame",
+        "configKey": "ink"
+      },
+      "prince_martian": {
+        "text": "Rise and fall of Prince Martian",
+        "image": "/assets/ink/prince_martian",
+        "type": "SketchFrame",
+        "configKey": "ink"
+      },
       "robo-croco": {
         "text": "The Last Robo-Croco",
         "image": "/assets/ink/robo-croco",

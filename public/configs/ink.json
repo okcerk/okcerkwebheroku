@@ -1,6 +1,116 @@
 {
     "key": "ink",
-    "items": {
+    "items": {      
+      "screaming_hour": {
+        "text": "Screaming Hour",
+        "image": "/assets/ink/screaming_hour",
+        "type": "SketchFrame"
+      },
+      "where_do_we_go": {
+        "text": "Where do we go from here?",
+        "image": "/assets/ink/where_do_we_go",
+        "type": "SketchFrame"
+      },
+      "running_microwave": {
+        "text": "How to survive inside a running microwave",
+        "image": "/assets/ink/running_microwave",
+        "type": "SketchFrame"
+      },
+      "world_breaking_news": {
+        "text": "World Breaking News",
+        "image": "/assets/ink/world_breaking_news",
+        "type": "SketchFrame"
+      },
+      "gates_of_hell": {
+        "text": "Gates of Hell",
+        "image": "/assets/ink/gates_of_hell",
+        "type": "SketchFrame"
+      },
+      "vegan_food": {
+        "text": "Vegan Food",
+        "image": "/assets/ink/vegan_food",
+        "type": "SketchFrame"
+      },
+      "world_of_wonders": {
+        "text": "World of Wonders",
+        "image": "/assets/ink/world_of_wonders",
+        "type": "SketchFrame"
+      },
+      "lagoon_trip": {
+        "text": "Lagoon Trip",
+        "image": "/assets/ink/lagoon_trip",
+        "type": "SketchFrame"
+      },
+      "prince_martian": {
+        "text": "Rise and fall of Prince Martian",
+        "image": "/assets/ink/prince_martian",
+        "type": "SketchFrame"
+      },
+      "underwater_quest": {
+        "text": "Underwater Quest",
+        "image": "/assets/ink/underwater_quest",
+        "type": "SketchFrame"
+      },
+      "boss": {
+        "text": "Wanna be your own boss?",
+        "image": "/assets/ink/boss",
+        "type": "SketchFrame"
+      },
+      "dissapointed_fish": {
+        "text": "Dissapointed Fish",
+        "image": "/assets/ink/dissapointed_fish",
+        "type": "SketchFrame"
+      },
+      "carnival": {
+        "text": "Carnival",
+        "image": "/assets/ink/carnival",
+        "type": "SketchFrame"
+      },
+      "going_nowhere_slow": {
+        "text": "Going Nowhere Slow",
+        "image": "/assets/ink/going_nowhere_slow",
+        "type": "SketchFrame"
+      },
+      "turtle": {
+        "text": "Turtle",
+        "image": "/assets/ink/turtle",
+        "type": "SketchFrame"
+      },
+      "origin": {
+        "text": "Origin",
+        "image": "/assets/ink/origin",
+        "type": "SketchFrame"
+      },
+      "the_creation": {
+        "text": "The Creation",
+        "image": "/assets/ink/the_creation",
+        "type": "SketchFrame"
+      },
+      "bird_is_the_word": {
+        "text": "Bird is the word",
+        "image": "/assets/ink/bird_is_the_word",
+        "type": "SketchFrame"
+      },
+      "tnt": {
+        "text": "T.N.T.",
+        "image": "/assets/ink/tnt",
+        "type": "SketchFrame"
+      },
+      "cyber-pet": {
+        "text": "Cyber-Pet",
+        "image": "/assets/ink/cyber-pet",
+        "type": "SketchFrame"
+      },
+      "discovery_channel": {
+        "text": "Discovery Channel",
+        "image": "/assets/ink/discovery_channel",
+        "type": "SketchFrame"
+      },
+      "thats_all_folks": {
+        "text": "That's All Folks!",
+        "image": "/assets/ink/thats_all_folks",
+        "type": "SketchFrame"
+      },
       "on_my_way_to_earth": {
         "text": "On my way to Earth",
         "image": "/assets/ink/on_my_way_to_earth",
