@@ -1,6 +1,24 @@
 {
     "key": "digital",
     "items": {
+      "blue_skull": {
+        "text": "Blue skull",
+        "altText": "Blue skull",
+        "image": "/assets/digital/skully",
+        "type": "SketchFrame"
+      },
+      "onion_face": {
+        "text": "Onion face",
+        "altText": "Onion face",
+        "image": "/assets/digital/onion_face",
+        "type": "SketchFrame"
+      },
+      "on_fire": {
+        "text": "On fire",
+        "altText": "On fire",
+        "image": "/assets/digital/on_fire",
+        "type": "SketchFrame"
+      },
       "trapped": {
         "text": "Trapped",
         "altText": "Trapped dude",

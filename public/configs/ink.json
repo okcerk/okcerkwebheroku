@@ -1,6 +1,16 @@
 {
     "key": "ink",
-    "items": {      
+    "items": {
+      "long_lost": {
+        "text": "Long lost",
+        "image": "/assets/ink/long_lost",
+        "type": "SketchFrame"
+      },  
+      "punch": {
+        "text": "Punching the way out",
+        "image": "/assets/ink/punch",
+        "type": "SketchFrame"
+      },    
       "screaming_hour": {
         "text": "Screaming Hour",
         "image": "/assets/ink/screaming_hour",

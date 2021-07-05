@@ -1,6 +1,39 @@
 {
     "key": "homepage",
-    "items": {
+    "items": {      
+      "punch": {
+        "text": "Punching the way out",
+        "image": "/assets/ink/punch",
+        "type": "SketchFrame",
+        "configKey": "ink"
+      },
+      "blue_skull": {
+        "text": "Blue skull",
+        "altText": "Blue skull",
+        "image": "/assets/digital/skully",
+        "type": "SketchFrame",
+        "configKey": "digital"
+      },
+      "onion_face": {
+        "text": "Onion face",
+        "altText": "Onion face",
+        "image": "/assets/digital/onion_face",
+        "type": "SketchFrame",
+        "configKey": "digital"
+      },      
+      "long_lost": {
+        "text": "Long lost",
+        "image": "/assets/ink/long_lost",
+        "type": "SketchFrame",
+        "configKey": "ink"
+      },  
+      "on_fire": {
+        "text": "On fire",
+        "altText": "On fire",
+        "image": "/assets/digital/on_fire",
+        "type": "SketchFrame",
+        "configKey": "digital"
+      },
       "trapped": {
         "text": "Trapped",
         "altText": "Trapped dude",
