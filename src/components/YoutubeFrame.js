@@ -11,6 +11,7 @@ const style = {
     width: 500,
     color: "#eceae9",
     fontSize: 20,
+    textAlign: "center"
   },
 };
 
