@@ -14,6 +14,7 @@ const style = {
     fontWeight: "bold",
     marginTop: 0,
     color: "white",
+    textAlign: "center"
   },
   link: {
     marginLeft: 20,

@@ -9,12 +9,14 @@ import Spinner from "../Spinner";
 const style = {
   pageContent: {
     justifyContent: "center",
+    display: "grid"
   },
   title: {
     fontSize: 30,
     fontFamily: "'Open Sans', sans-serif",
     fontWeight: "bold",
     color: "white",
+    textAlign: "center"
   },
   image: {
     maxWidth: "95%",
@@ -22,12 +24,12 @@ const style = {
     padding: 25,
   },
   twitterFrame: {
-    maxWidth: "50%",
-    minWidth: 600,
-    paddingBottom: 25,
+    display: "flex",
+    justifyContent: "center"
   },
   twitterOptions: {
     height: 600,
+    width: 600
   },
 };
 

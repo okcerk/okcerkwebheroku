@@ -9,6 +9,7 @@ const style = {
     color: "white",
     fontFamily: "'Open Sans', sans-serif",
     fontSize: 20,
+    textAlign: "center"
   },
 };
 

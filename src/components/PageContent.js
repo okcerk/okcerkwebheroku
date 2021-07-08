@@ -4,6 +4,7 @@ const style = {
   displayedContent: {
     justifyContent: "center",
     padding: 20,
+    display: "grid"
   },
 };
 

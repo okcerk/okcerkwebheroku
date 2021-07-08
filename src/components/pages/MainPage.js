@@ -9,6 +9,7 @@ import Spinner from "../../components/Spinner";
 const style = {
   pageContent: {
     justifyContent: "center",
+    display: "grid"
   },
 };
 
