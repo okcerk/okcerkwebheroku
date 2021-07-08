@@ -5,6 +5,7 @@
         "text": "Blue skull",
         "altText": "Blue skull",
         "image": "/assets/digital/skully",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643683416884641793",
         "type": "SketchFrame"
       },
       "onion_face": {
@@ -23,12 +24,14 @@
         "text": "Trapped",
         "altText": "Trapped dude",
         "image": "/assets/digital/trapped",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643681217861386241",
         "type": "SketchFrame"
       },
       "hilloween": {
         "text": "Hilloween",
         "altText": "Guy being haunted by big ghost behind",
         "image": "/assets/digital/hilloween",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643686715419525121",
         "type": "SketchFrame"
       },
       "unknown": {
@@ -47,12 +50,14 @@
         "text": "Insomnia",
         "altText": "Blue robot looking at something shocked",
         "image": "/assets/digital/insomnia",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643673521279991809",
         "type": "SketchFrame"
       },
       "finding": {
         "text": "The Finding",
         "altText": "Little green-ish guy looking straight at the camera",
         "image": "/assets/digital/finding",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643666924210225153",
         "type": "SketchFrame"
       },
       "energy_drink": {
@@ -71,6 +76,7 @@
         "text": "Merry Xmas!",
         "altText": "Disgusting insect wants to eat you",
         "image": "/assets/digital/xmas",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643675720303247361",
         "type": "SketchFrame"
       },
       "smiley": {
@@ -83,18 +89,21 @@
         "text": "The sky is the limit",
         "altText": "Big purple monster smoking a cigar",
         "image": "/assets/digital/purple",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643668023721852929",
         "type": "SketchFrame"
       },
       "crying": {
         "text": "Missing the ocean",
         "altText": "Cthuluh like monster crying because it's missing the ocean",
         "image": "/assets/digital/crying",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643676819814875137",
         "type": "SketchFrame"
       },
       "war": {
         "text": "War",
         "altText": "Little yellow dude inside a massive war machine",
         "image": "/assets/digital/war",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643669123233480705",
         "type": "SketchFrame"
       },
       "bubblegum2": {
@@ -113,6 +122,7 @@
         "text": "Feeding the enemy",
         "altText": "Owner feeding little monster some disgusting orange food",
         "image": "/assets/digital/pet",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643670222745108481",
         "type": "SketchFrame"
       },
       "pizza-fridge": {
@@ -131,12 +141,14 @@
         "text": "Sweet Bunny",
         "altText": "Little sweet doggy with a nice flower and a knife, covered in blood after some action",
         "image": "/assets/digital/sweet_bunny",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643677919326502913",
         "type": "SketchFrame"
       },
       "great-escape": {
         "text": "The great escape",
         "altText": "Girl escaping from magician in space. There is also a spaceship nearby.",
         "image": "/assets/digital/great_escape",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643679018838130689",
         "type": "SketchFrame"
       },
       "robolution": {
@@ -155,6 +167,7 @@
         "text": "Where do we go from here?",
         "altText": "Three eyed green monster dressed as a human and trying to switch TV channels with remote control",
         "image": "/assets/digital/tv",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643674620791619585",
         "type": "SketchFrame"
       },
       "conversations-with-myself": {
@@ -167,6 +180,7 @@
         "text": "Disney",
         "altText": "Little blue head with thousands of multi-color tentacles coming out of it",
         "image": "/assets/digital/disney",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643684516396269569",
         "type": "SketchFrame"
       },
       "me-during-quarantine": {
@@ -185,6 +199,7 @@
         "text": "Coronavirra",
         "altText": "Corona beer is the real coronavirus",
         "image": "/assets/digital/coronavirra",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643680118349758465",
         "type": "SketchFrame"
       },
       "sweet-dreams2": {
@@ -197,6 +212,7 @@
         "text": "Duckanism",
         "altText": "Green duck shooting a red ray from his third eye",
         "image": "/assets/digital/duck",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643672421768364033",
         "type": "SketchFrame"
       },
       "pizza-time": {
@@ -209,12 +225,14 @@
         "text": "Dark times",
         "altText": "Half face of an angry green monster warrior",
         "image": "/assets/digital/alien_face",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643682317373014017",
         "type": "SketchFrame"
       },
       "cereal": {
         "text": "Me having cereal with yogurt",
         "altText": "Purple cereal coming alive while trying to eat it and it's looking at me",
         "image": "/assets/digital/cereal",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643685615907897345",
         "type": "SketchFrame"
       },
       "king-of-nothing": {
@@ -359,6 +377,7 @@
         "text": "Portrait of my face this morning",
         "altText": "Big orange moth",
         "image": "/assets/digital/bug",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643671322256736257",
         "type": "SketchFrame"
       },
       "thousand-hours": {

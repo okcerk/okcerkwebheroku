@@ -11,6 +11,7 @@
         "text": "Blue skull",
         "altText": "Blue skull",
         "image": "/assets/digital/skully",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643683416884641793",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -38,6 +39,7 @@
         "text": "Trapped",
         "altText": "Trapped dude",
         "image": "/assets/digital/trapped",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643681217861386241",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -80,6 +82,7 @@
       "hilloween": {
         "text": "Hilloween",
         "image": "/assets/digital/hilloween",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643686715419525121",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -108,7 +111,7 @@
         "configKey": "ink"
       },
       "me-after-2020": {
-        "text": "Insomnia",
+        "text": "Me After 2020",
         "image": "/assets/digital/me_after_2020",
         "type": "SketchFrame",
         "configKey": "digital"
@@ -127,13 +130,15 @@
       },
       "insomnia": {
         "text": "Insomnia",
-        "image": "/assets/digital/insomnia",
+        "image": "/assets/digital/insomnia",        
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643673521279991809",
         "type": "SketchFrame",
         "configKey": "digital"
       },    
       "finding": {
         "text": "The Finding",
         "image": "/assets/digital/finding",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643666924210225153",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -164,6 +169,7 @@
       "xmas": {
         "text": "Merry Xmas!",
         "image": "/assets/digital/xmas",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643675720303247361",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -182,12 +188,14 @@
       "purple": {
         "text": "The sky is the limit",
         "image": "/assets/digital/purple",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643668023721852929",
         "type": "SketchFrame",
         "configKey": "digital"
       },
       "crying": {
         "text": "Missing the ocean",
         "image": "/assets/digital/crying",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643676819814875137",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -205,6 +213,7 @@
       "war": {
         "text": "War",
         "image": "/assets/digital/war",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643669123233480705",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -229,6 +238,7 @@
       "pet": {
         "text": "Feeding the enemy",
         "image": "/assets/digital/pet",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643670222745108481",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -259,12 +269,14 @@
       "sweet-bunny": {
         "text": "Sweet Bunny",
         "image": "/assets/digital/sweet_bunny",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643677919326502913",
         "type": "SketchFrame",
         "configKey": "digital"
       },
       "great-escape": {
         "text": "The great escape",
         "image": "/assets/digital/great_escape",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643679018838130689",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -295,6 +307,7 @@
       "where-do-we-go": {
         "text": "Where do we go from here?",
         "image": "/assets/digital/tv",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643674620791619585",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -319,6 +332,7 @@
       "disney": {
         "text": "Disney",
         "image": "/assets/digital/disney",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643684516396269569",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -367,6 +381,7 @@
       "coronavirra": {
         "text": "Coronavirra",
         "image": "/assets/digital/coronavirra",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643680118349758465",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -391,6 +406,7 @@
       "duckanism": {
         "text": "Duckanism",
         "image": "/assets/digital/duck",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643672421768364033",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -409,6 +425,7 @@
       "dark-times": {
         "text": "Dark times",
         "image": "/assets/digital/alien_face",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643682317373014017",
         "type": "SketchFrame",
         "configKey": "digital"
       },
@@ -422,6 +439,7 @@
         "text": "Me having cereal with yogurt",
         "image": "/assets/digital/cereal",
         "type": "SketchFrame",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643685615907897345",
         "configKey": "digital"
       },
       "king-of-nothing": {
@@ -619,6 +637,7 @@
       "portrait": {
         "text": "Portrait of my face this morning",
         "image": "/assets/digital/bug",
+        "nftId": "103170219001888050974575475515321569508945314812141480200066643671322256736257",
         "type": "SketchFrame",
         "configKey": "digital"
       },

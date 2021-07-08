@@ -1,4 +1,5 @@
 import React from "react";
+import NftButton from "./NftButton";
 
 const style = {
   sketchFrame: {
@@ -28,10 +29,13 @@ const style = {
   disabled: {
     pointerEvents: "none"
   },
+  nftButtonWrapper: {
+    marginTop: "1rem"
+  }
 };
 
 const SketchFrame = (props) => {
-  const { text, image, itemKey, configKey, disabledLink, altText, externalLink } = props;
+  const { text, image, itemKey, configKey, disabledLink, altText, externalLink, nftId } = props;
   const imagePath = `${process.env.PUBLIC_URL}${image}.jpg`;
   return (
     <div style={style.sketchFrame}>
@@ -45,6 +49,7 @@ const SketchFrame = (props) => {
             <img style={style.image} src={imagePath} alt={altText || text} />
           </div>
         </a>
+        {nftId && (<div style={style.nftButtonWrapper}><NftButton nftId={nftId} /></div>)}        
       </div>
     </div>
   );

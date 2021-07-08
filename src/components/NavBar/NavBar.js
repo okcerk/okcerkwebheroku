@@ -40,7 +40,8 @@ const NavBar = (props) => {
             <Link className="navLink" to="/ink" onClick={onLinkClick}>Ink</Link>
             <Link className="navLink" to="/escuadron37" onClick={onLinkClick}>Escuadron 37</Link>
             <a className="navLink" href="https://okcerk2.blogspot.com/" target="_blank">Blog</a>
-            <Link className="navLink redLink" to="/book" onClick={onLinkClick}>Book</Link>
+            <Link className="navLink" to="/book" onClick={onLinkClick}>Book</Link>
+            <a className="navLink redLink" href="https://opensea.io/collection/okcerk-s-digital-masterpieces" target="_blank">NFT</a>
             <Link className="navLink" to="/about" onClick={onLinkClick}>About</Link>              
         </ul>          
       </div>

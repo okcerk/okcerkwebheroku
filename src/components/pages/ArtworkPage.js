@@ -5,6 +5,7 @@ import { TwitterTimelineEmbed } from "react-twitter-embed";
 import { withTitle, titleWithEnding } from "../../helpers/pageTitleHelpers";
 import { redirectToHomepage } from "../../helpers/navigationHelper";
 import Spinner from "../Spinner";
+import NftButton from "../NftButton";
 
 const style = {
   pageContent: {
@@ -30,6 +31,13 @@ const style = {
   twitterOptions: {
     height: 600,
     width: 600
+  },
+  nftText: {
+    fontSize: 20,
+    color: "white"
+  },
+  nftButtonWrapper: {
+    margin: "2rem"
   },
 };
 
@@ -63,13 +71,21 @@ const ArtworkPage = (props) => {
     return null;
   }
 
-  const text = artworkConfig.text;
+  const { text, nftId } = artworkConfig;
   const imageHdPath = `${process.env.PUBLIC_URL}${artworkConfig.image}_hd.jpg`;
 
   return withTitle(
     <div style={style.pageContent}>
       <h1 style={style.title}>{text}</h1>
       <img style={style.image} src={imageHdPath} alt={artworkConfig.altText || text} />
+      {nftId && (
+          <>
+            <span style={style.nftText}>This artwork is now available to purchase as an NFT</span>
+            <div style={style.nftButtonWrapper}>
+              <NftButton nftId={nftId}/>
+            </div>
+          </>
+      )}
       <div style={style.twitterFrame}>
         <TwitterTimelineEmbed
           sourceType="profile"
