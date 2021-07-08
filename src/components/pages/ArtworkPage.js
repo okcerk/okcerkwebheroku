@@ -34,10 +34,12 @@ const style = {
   },
   nftText: {
     fontSize: 20,
-    color: "white"
+    color: "white",    
+    textAlign: "center"
   },
   nftButtonWrapper: {
-    margin: "2rem"
+    margin: "2rem",    
+    textAlign: "center"
   },
 };
 

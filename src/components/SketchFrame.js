@@ -30,7 +30,8 @@ const style = {
     pointerEvents: "none"
   },
   nftButtonWrapper: {
-    marginTop: "1rem"
+    marginTop: "1rem",
+    textAlign: "center"
   }
 };
 
